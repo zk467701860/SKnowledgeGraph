@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "sentence_id": 1,
+    "entity_name": "activity",
+    "context_text": "An activity is a single, focused thing that the user can do. "
+    "paragraph_id": 1
+  },
+  {
+    "id": 2,
+    "sentence_id": 2,
+    "entity_name": "Activity",
+    "context_text": "The Activity class is an important part of an application's overall lifecycle, and the way activities are launched and put together is a fundamental part of the platform's application model. For a detailed perspective on the structure of an Android application and how activities behave, please read the Application Fundamentals and Tasks and Back Stack developer guides."
+    "paragraph_id": 2
+  },
+  {
+    "id": 3,
+    "sentence_id": 3,
+    "entity_name": "Activity",
+    "context_text": "Activities in the system are managed as an activity stack. When a new activity is started, it is placed on the top of the stack and becomes the running activity -- the previous activity always remains below it in the stack, and will not come to the foreground again until the new activity exits.",
+    "paragraph_id": 3
+  },
+  {
+    "id": 4,
+    "sentence_id": 4,
+    "entity_name": "Activity",
+    "context_text": "Activities in the system are managed as an activity stack. When a new activity is started, it is placed on the top of the stack and becomes the running activity -- the previous activity always remains below it in the stack, and will not come to the foreground again until the new activity exits.",
+    "paragraph_id": 4
+  },
+  {
+    "id": 5,
+    "sentence_id": 5,
+    "entity_name": "Activity",
+    "context_text": "If an activity is paused or stopped, the system can drop the activity from memory by either asking it to finish, or simply killing its process. When it is displayed again to the user, it must be completely restarted and restored to its previous state.",
+    "paragraph_id": 5
+  },
+  {
+    "id": 6,
+    "sentence_id": 6,
+    "entity_name": "Activity",
+    "context_text": "In philosophy, an action is something which is done by an agent. In common speech, the term action is often used interchangeably with the term behavior. However, in the philosophy of action, the behavioural sciences, and the social sciences, a distinction is made: behavior is defined as automatic and reflexive activity, while action is defined as intentional, purposive, conscious and subjectively meaningful activity",
+    "paragraph_id": 6
+  },
+  {
+    "id": 7,
+    "sentence_id": 6,
+    "entity_name": "activity",
+    "context_text": "We move our eyes, head and body in taking in what is around us... [we] crane our necks, peer, squint, reach for our glasses or draw near to get a better look...'…'Perception is a mode of activity on the part of the whole animal...It cannot be represented in terms of merely passive, and internal, processes...' ",
+    "paragraph_id": 7
+  }
+]

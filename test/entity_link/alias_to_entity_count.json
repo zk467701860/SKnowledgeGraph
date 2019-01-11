@@ -1,0 +1,27 @@
+[
+  {
+    "alias": "onAnimationStart(Animator)",
+    "entity": "android.animation.Animator.AnimatorListener.onAnimationStart(Animator)",
+    "count": 10
+  },
+  {
+    "alias": "Animator.AnimatorListener",
+    "entity": "android.animation.Animator.AnimatorListener",
+    "count": 11
+  },
+  {
+    "alias": "AnimatorListener",
+    "entity": "android.animation.Animator.AnimatorListener",
+    "count": 12
+  },
+  {
+    "alias": "Animator",
+    "entity": "android.animation.Animator",
+    "count": 14
+  },
+  {
+    "alias": "Animator Listener",
+    "entity": "android.animation.Animator.AnimatorListener",
+    "count": 0
+  }
+]

@@ -1,0 +1,13 @@
+numpy
+gevent
+py2neo>=3.1.2
+pycorenlp
+nltk
+gensim
+flask
+bs4
+tagme
+pymysql
+textdistance[extras]
+sqlalchemy
+textblob

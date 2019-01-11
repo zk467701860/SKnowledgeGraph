@@ -1,0 +1,8 @@
+/.idea/
+*.log
+model/
+*.pyc
+/venv/
+*/venv/*
+.cache/
+tf_idf/data/

@@ -1,0 +1,198 @@
+{
+  "labels": [
+    {
+      "name": "wikidata",
+      "description": "knowledge from WikiData",
+      "priority": 40,
+      "public_name": "Software Concept",
+      "type": "knowledge source",
+      "is_public": true
+    },
+    {
+      "name": "wikipedia",
+      "description": "knowledge from Wikipedia",
+      "priority": 40,
+      "public_name": "Software Concept",
+      "type": "knowledge source",
+      "is_public": true
+    },
+    {
+      "name": "api",
+      "description": "represent a API in library, including package, class, method, field, etc",
+      "priority": 2,
+      "public_name": "API",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "entity",
+      "description": "entity in the knowledge graph, stand for a meaningful thing.",
+      "priority": 30,
+      "public_name": "Concept",
+      "type": "schema",
+      "is_public": false
+    },
+    {
+      "name": "domain entity",
+      "description": "concept extract from API documentation",
+      "priority": 30,
+      "public_name": "API Concept",
+      "type": "schema",
+      "is_public": true
+    },
+    {
+      "name": "api class",
+      "description": "a class in java",
+      "priority": 1,
+      "public_name": "API Class",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api interface",
+      "description": "a interface in java",
+      "priority": 1,
+      "public_name": "API Interface",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api constructor",
+      "description": "constructor method in api class",
+      "priority": 1,
+      "public_name": "API Method",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api enum class",
+      "description": "special api class",
+      "priority": 1,
+      "public_name": "API Class",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api field",
+      "description": "constant field in api class",
+      "priority": 1,
+      "public_name": "API Field",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api method",
+      "description": "method in api class",
+      "priority": 1,
+      "public_name": "API Method",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api parameter",
+      "description": "method parameter of java method",
+      "priority": 1,
+      "public_name": "API Parameter",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api return value",
+      "description": "method return value of api method",
+      "priority": 1,
+      "public_name": "API Return Value",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api package",
+      "description": "java package, containing a list of class",
+      "priority": 1,
+      "public_name": "API Package",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "api exception",
+      "description": "the throw exception directive of a method",
+      "priority": 1,
+      "public_name": "Exception",
+      "type": "category",
+      "is_public": true
+    },
+    {
+      "name": "sentence",
+      "description": "a sentence extracted from API reference documentation, describe functionality or directive of APIs",
+      "priority": 1,
+      "public_name": "Descriptive Knowledge",
+      "type": "category",
+      "is_public": true
+    }
+  ],
+  "public_labels": [
+    {
+      "name": "Software Concept",
+      "description": "Represents software-related background knowledge, mainly from WikiData or Wikipedia.",
+      "priority": 5
+    },
+    {
+      "name": "Descriptive Knowledge",
+      "description": "sentences extracted from API reference documentation, describe functionality or directive of APIs",
+      "priority": 10
+    },
+    {
+      "name": "API Concept",
+      "description": "api-related concept extracted from API reference documentation, will link to software concept",
+      "priority": 1
+    },
+    {
+      "name": "API Package",
+      "description": "API, a package in a library",
+      "priority": 1
+    },
+    {
+      "name": "API Class",
+      "description": "API, a class in a package",
+      "priority": 1
+    },
+    {
+      "name": "API Interface",
+      "description": "API, a interface in a package",
+      "priority": 1
+    },
+    {
+      "name": "API Field",
+      "description": "a property or constant in the class or interface",
+      "priority": 1
+    },
+    {
+      "name": "API Method",
+      "description": "API, a method in a class",
+      "priority": 1
+    },
+    {
+      "name": "API Parameter",
+      "description": "the parameter of one method",
+      "priority": 1
+    },
+    {
+      "name": "API Return Value",
+      "description": "the return value of one method",
+      "priority": 1
+    },
+    {
+      "name": "Exception",
+      "description": "the exception of one method",
+      "priority": 1
+    }
+  ],
+  "private_property_names": [
+    "lastrevid",
+    "_create_time",
+    "_update_time",
+    "_modify_version",
+    "modified",
+    "logo image"
+  ],
+  "default_public_name": "API Concept"
+}
