@@ -65,8 +65,6 @@ for i in range(0,10):
     classifier = fasttext.supervised("../data/big_train.txt", "news_fasttext.model", label_prefix="__label__")
 
     result = classifier.test("../data/" +fileName[i])
-    print result.precision
-    print result.recall
     print  "----------------------------/n"
 
     detailResult("news_fasttext.model.bin", "../data/" +fileName[i])
