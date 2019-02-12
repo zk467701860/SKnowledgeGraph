@@ -212,8 +212,22 @@ def filterMethodCallDirective(str):
         print searchObj.group()
         return "ReturnValueDirective"
 
-    searchObj = re.search("(method|\w+\(.*\))\s+(must|should|can|could|may)?\s*(return|returns|returned|returning)\s+(a|the|this)?.*(([A-Z]+\w*)+|true|false|element|object)", str,
+    searchObj = re.search("(method|\w+\(.*\))\s+(must|should|can|could|may)?\s*(return|returns|returned|returning)\s+(a|the|this)?.*(([A-Z]+\w*)+|true|false|element|object|null)", str,
                           re.M | re.S )
+    if searchObj:
+        print searchObj.group()
+        return "ReturnValueDirective"
+
+    searchObj = re.search("(result|results|returned \w*)\s+(must|should|can|could|may)?\s+(is|be|are)+",str,
+                        re.M | re.S)
+    if searchObj:
+        print searchObj.group()
+        return "ReturnValueDirective"
+
+    return ""
+
+    searchObj = re.search("\s+(must|should|can|could|may)?\s+return", str,
+                          re.M | re.S)
     if searchObj:
         print searchObj.group()
         return "ReturnValueDirective"
