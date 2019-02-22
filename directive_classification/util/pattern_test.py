@@ -5,7 +5,7 @@ sys.setdefaultencoding('utf8')
 import xml.dom.minidom
 from pattern_filter import filterMethodCallDirective
 
-domTree = xml.dom.minidom.parse("../data/directive_other.xml")
+domTree = xml.dom.minidom.parse("../data/directives.xml")
 dataset = domTree.getElementsByTagName("dataset")[0]
 
 TP = 0
@@ -19,10 +19,9 @@ for group in dataset.getElementsByTagName("group"):
 
         for directive in directives:
             directiveKind = directive.getAttribute("kind").replace(" ","").decode("utf-8").encode("utf-8")
-            if directiveKind == "NullSemanticsDirective":
-                directiveKind = "NullAllowedDirective"
 
-            correctKind = "NullAllowedDirective"
+
+            correctKind = "SynchronizationDirective"
 
             line = directive.firstChild.wholeText.strip()
             line = line.decode("utf-8").encode("utf-8")

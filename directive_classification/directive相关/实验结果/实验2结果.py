@@ -6,6 +6,13 @@ pricision:
 recall:
 0.952782462057
 
+TP FP FN TN:
+565 83 28 3577
+pricision:
+0.871913580247
+recall:
+0.952782462057
+
 FN: @param actions Must be either null or the empty string.
 FN: For instance, for types Http, and Socks, a SocketAddress must be provided.
 FN: Note: You must specify the parameter's SQL type.
@@ -118,6 +125,15 @@ pricision:
 recall:
 0.787096774194
 
+
+TP FP FN TN:
+122 48 33 4050
+pricision:
+0.717647058824
+recall:
+0.787096774194
+
+
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 FN: @param store the IPreference store in which the user's preference should be persisted; null if you don't want it persisted automatically.
 FN: @param key the key to use when persisting the user's preference; null if you don't want it persisted.
@@ -207,6 +223,13 @@ pricision:
 0.74025974026
 recall:
 0.467213114754
+
+TP FP FN TN:
+75 76 47 4055
+pricision:
+0.496688741722
+recall:
+0.614754098361
 
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
@@ -306,6 +329,15 @@ pricision:
 recall:
 0.727272727273
 
+
+TP FP FN TN:
+64 63 24 4102
+pricision:
+0.503937007874
+recall:
+0.727272727273
+
+
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
 FP: @param actions Must be either null or the empty string.
@@ -373,6 +405,14 @@ pricision:
 0.813559322034
 recall:
 0.620689655172
+
+
+TP FP FN TN:
+142 114 90 3907
+pricision:
+0.5546875
+recall:
+0.612068965517
 
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
@@ -511,6 +551,14 @@ pricision:
 recall:
 0.49593495935
 
+TP FP FN TN:
+61 49 62 4081
+pricision:
+0.554545454545
+recall:
+0.49593495935
+
+
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
 FP: @param actions Must be either null or the empty string.
@@ -603,6 +651,13 @@ TP FP FN TN:
 107 15 86 1787
 pricision:
 0.877049180328
+recall:
+0.554404145078
+
+TP FP FN TN:
+107 176 86 3884
+pricision:
+0.378091872792
 recall:
 0.554404145078
 
@@ -725,6 +780,13 @@ recall:
 0.966666666667
 
 
+TP FP FN TN:
+171 337 14 3731
+pricision:
+0.336614173228
+recall:
+0.924324324324
+
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
 FP: If s is null, then a NullPointerException is thrown.
@@ -762,6 +824,14 @@ TP FP FN TN:
 94 2 190 108
 pricision:
 0.979166666667
+recall:
+0.330985915493
+
+
+TP FP FN TN:
+94 17 190 3952
+pricision:
+0.846846846847
 recall:
 0.330985915493
 
@@ -975,6 +1045,13 @@ pricision:
 recall:
 0.870646766169
 
+TP FP FN TN:
+175 64 26 3988
+pricision:
+0.732217573222
+recall:
+0.870646766169
+
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
 FN: Clients may implement, but must not extend.
@@ -1032,6 +1109,15 @@ pricision:
 0.875647668394
 recall:
 0.669306930693
+
+
+TP FP FN TN:
+338 70 167 3678
+pricision:
+0.828431372549
+recall:
+0.669306930693
+
 
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
@@ -1263,6 +1349,15 @@ pricision:
 recall:
 0.815217391304
 
+
+TP FP FN TN:
+62 11 30 4150
+pricision:
+0.849315068493
+recall:
+0.673913043478
+
+
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
 FP: This method may be extended (super.close must be called).
@@ -1305,6 +1400,13 @@ pricision:
 0.976744186047
 recall:
 0.525
+
+TP FP FN TN:
+16 0 42 4195
+pricision:
+1.0
+recall:
+0.275862068966
 
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 
@@ -1358,6 +1460,14 @@ TP FP FN TN:
 98 5 295 337
 pricision:
 0.95145631068
+recall:
+0.249363867684
+
+
+TP FP FN TN:
+98 58 295 3802
+pricision:
+0.628205128205
 recall:
 0.249363867684
 
@@ -1675,6 +1785,14 @@ pricision:
 1.0
 recall:
 0.705607476636
+
+TP FP FN TN:
+113 47 63 4030
+pricision:
+1.0
+recall:
+0.642045454545
+
 
 C:\Python27\python.exe C:/我的云·复旦/现在课程/研究生毕业论文/SKnowledgeGraph/directive_classification/util/pattern_test.py
 

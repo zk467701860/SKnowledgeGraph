@@ -10,29 +10,29 @@ sys.setdefaultencoding('utf8')
 def filterMethodCallDirective(str):
 
 
-    #Null Allowed Directive
-    searchObj = re.search("(@param)*.+(can|could|may)\s*(be|is|are)\s*(equivalent|equal to)*\s*null", str, re.M | re.S | re.I)
-    if searchObj:
-        ##print searchObj.group()
-        return "NullAllowedDirective"
-
-    searchObj = re.search("null (be|is|are)* ignored", str,re.M | re.S | re.I)
-    if searchObj:
-        ##print searchObj.group()
-        return "NullAllowedDirective"
-
-    searchObj = re.search("or null|null means|this parameter is null|null returns|null otherwise|null indicates|If null|Specify null to", str, re.M | re.S | re.I)
-    if searchObj:
-        ##print searchObj.group()
-        return "NullAllowedDirective"
-
-    searchObj = re.search("null (results|use|be passed in)", str, re.M | re.S | re.I)
-    if searchObj:
-        ##print searchObj.group()
-        return "NullAllowedDirective"
-
+    # #Null Allowed Directive
+    # searchObj = re.search("(@param)*.+(can|could|may)\s*(be|is|are)\s*(equivalent|equal to)*\s*null", str, re.M | re.S | re.I)
+    # if searchObj:
+    #     ##print searchObj.group()
+    #     return "NullAllowedDirective"
     #
+    # searchObj = re.search("null (be|is|are)* ignored", str,re.M | re.S | re.I)
+    # if searchObj:
+    #     ##print searchObj.group()
+    #     return "NullAllowedDirective"
     #
+    # searchObj = re.search("or null|null means|this parameter is null|null returns|null otherwise|null indicates|If null|Specify null to", str, re.M | re.S | re.I)
+    # if searchObj:
+    #     ##print searchObj.group()
+    #     return "NullAllowedDirective"
+    #
+    # searchObj = re.search("null (results|use|be passed in)", str, re.M | re.S | re.I)
+    # if searchObj:
+    #     ##print searchObj.group()
+    #     return "NullAllowedDirective"
+
+
+
     # #Not Null Directive
     # # antipattern:
     # # null should not be inserted into a Queue.
@@ -58,10 +58,10 @@ def filterMethodCallDirective(str):
     # if searchObj:
     #     ##print searchObj.group()
     #     return "NotNullDirective"
-    #
-    #
-    #
-    #
+
+
+
+
     # # Number Range Directive
     # searchObj = re.search("(>|<|=|<=|>=|<>) (\d+|([A-Z]+\w*)+|[a-z]+([A-Z]+\w*)+)", str, re.M | re.S )
     # if searchObj:
@@ -153,14 +153,14 @@ def filterMethodCallDirective(str):
     # if searchObj:
     #     ##print searchObj.group()
     #     return "NumberRangeDirective"
-
+    #
     # searchObj = re.search("(be|is|are) .*(negative|positive|non-negative|non-positive)", str, re.M | re.S | re.I)
     # if searchObj:
     #     ##print searchObj.group()
     #     return "NumberRangeDirective"
-    #
-    #
-    #
+
+
+
     # #Method Parameter Type Directive
     # searchObj = re.search("((([A-Z]+\w+)[A-Z]+\w*)|parameter).*(be|is|are) .*of.+type", str, re.M | re.S )
     # if searchObj:
@@ -258,8 +258,8 @@ def filterMethodCallDirective(str):
     # if searchObj:
     #     ##print searchObj.group()
     #     return "ReturnValueDirective"
-    #
-    #
+
+
     # #String Format Directive
     # searchObj = re.search("(must|should) (be|is|are|start with|starting|ends with) .*(\".*\"|\'.*\'|string)", str,
     #                       re.M | re.S| re.I)
@@ -320,8 +320,8 @@ def filterMethodCallDirective(str):
     # if searchObj:
     #     # print searchObj.group()
     #     return "StringFormatDirective"
-    #
-    #
+
+
     # #Method Call Visibility Directive
     # searchObj = re.search("be necessary to use .*method", str,
     #                       re.M | re.S | re.I)
@@ -500,9 +500,9 @@ def filterMethodCallDirective(str):
     # if searchObj:
     #     # print searchObj.group()
     #     return "MethodOverridingDirective"
-
-
-
+    #
+    #
+    #
     # #Method Extension Directive
     # searchObj = re.search("(call|invoke) (super.|(.*super))", str,
     #                      re.M | re.S|re.I)
@@ -515,9 +515,9 @@ def filterMethodCallDirective(str):
     # if searchObj:
     #     # print searchObj.group()
     #     return "MethodExtensionDirective"
-
-
-
+    #
+    #
+    #
     # #Call Contract Subclassing Directive
     # searchObj = re.search("(subclasses|subclass) .*(call) .*(method|constructor)", str,
     #                       re.M | re.S | re.I)
@@ -533,56 +533,56 @@ def filterMethodCallDirective(str):
 
 
 
-    # #Alternative Directive
-    # searchObj = re.search("@deprecated", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "AlternativeDirective"
-    #
-    # searchObj = re.search("preferable to", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "AlternativeDirective"
-    #
-    # searchObj = re.search("be more efficient to use", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "AlternativeDirective"
-    #
-    # searchObj = re.search("instead", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "AlternativeDirective"
-    #
-    # searchObj = re.search("replace", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "AlternativeDirective"
-    #
-    # searchObj = re.search("a better choice", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "AlternativeDirective"
+    #Alternative Directive
+    searchObj = re.search("@deprecated", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "AlternativeDirective"
+
+    searchObj = re.search("preferable to", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "AlternativeDirective"
+
+    searchObj = re.search("be more efficient to use", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "AlternativeDirective"
+
+    searchObj = re.search("instead", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "AlternativeDirective"
+
+    searchObj = re.search("replace", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "AlternativeDirective"
+
+    searchObj = re.search("a better choice", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "AlternativeDirective"
 
 
     #Synchronization Directive
-    # searchObj = re.search("thread-safe", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "SynchronizationDirective111"
-    #
-    # searchObj = re.search("synchronized", str,
-    #                       re.M | re.S | re.I)
-    # if searchObj:
-    #     # print searchObj.group()
-    #     return "SynchronizationDirective111"
+    searchObj = re.search("thread-safe", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "SynchronizationDirective"
+
+    searchObj = re.search("synchronized", str,
+                          re.M | re.S | re.I)
+    if searchObj:
+        # print searchObj.group()
+        return "SynchronizationDirective"
 
 
 
