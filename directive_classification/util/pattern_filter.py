@@ -10,26 +10,26 @@ sys.setdefaultencoding('utf8')
 def filterMethodCallDirective(str):
 
 
-    # #Null Allowed Directive
-    # searchObj = re.search("(@param)*.+(can|could|may)\s*(be|is|are)\s*(equivalent|equal to)*\s*null", str, re.M | re.S | re.I)
-    # if searchObj:
-    #     ##print searchObj.group()
-    #     return "NullAllowedDirective"
-    #
-    # searchObj = re.search("null (be|is|are)* ignored", str,re.M | re.S | re.I)
-    # if searchObj:
-    #     ##print searchObj.group()
-    #     return "NullAllowedDirective"
-    #
-    # searchObj = re.search("or null|null means|this parameter is null|null returns|null otherwise|null indicates|If null|Specify null to", str, re.M | re.S | re.I)
-    # if searchObj:
-    #     ##print searchObj.group()
-    #     return "NullAllowedDirective"
-    #
-    # searchObj = re.search("null (results|use|be passed in)", str, re.M | re.S | re.I)
-    # if searchObj:
-    #     ##print searchObj.group()
-    #     return "NullAllowedDirective"
+    #Null Allowed Directive
+    searchObj = re.search("(@param)*.+(can|could|may)\s*(be|is|are)\s*(equivalent|equal to)*\s*null", str, re.M | re.S | re.I)
+    if searchObj:
+        ##print searchObj.group()
+        return "NullAllowedDirective"
+
+    searchObj = re.search("null (be|is|are)* ignored", str,re.M | re.S | re.I)
+    if searchObj:
+        ##print searchObj.group()
+        return "NullAllowedDirective"
+
+    searchObj = re.search("or null|null means|this parameter is null|null returns|null otherwise|null indicates|If null|Specify null to", str, re.M | re.S | re.I)
+    if searchObj:
+        ##print searchObj.group()
+        return "NullAllowedDirective"
+
+    searchObj = re.search("null (results|use|be passed in)", str, re.M | re.S | re.I)
+    if searchObj:
+        ##print searchObj.group()
+        return "NullAllowedDirective"
 
     #
     #
@@ -572,17 +572,17 @@ def filterMethodCallDirective(str):
 
 
     #Synchronization Directive
-    searchObj = re.search("thread-safe", str,
-                          re.M | re.S | re.I)
-    if searchObj:
-        # print searchObj.group()
-        return "SynchronizationDirective111"
-
-    searchObj = re.search("synchronized", str,
-                          re.M | re.S | re.I)
-    if searchObj:
-        # print searchObj.group()
-        return "SynchronizationDirective111"
+    # searchObj = re.search("thread-safe", str,
+    #                       re.M | re.S | re.I)
+    # if searchObj:
+    #     # print searchObj.group()
+    #     return "SynchronizationDirective111"
+    #
+    # searchObj = re.search("synchronized", str,
+    #                       re.M | re.S | re.I)
+    # if searchObj:
+    #     # print searchObj.group()
+    #     return "SynchronizationDirective111"
 
 
 
