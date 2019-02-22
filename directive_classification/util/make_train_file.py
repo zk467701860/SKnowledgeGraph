@@ -22,12 +22,12 @@ for str in fileName:
 #directive data
 for group in dataset.getElementsByTagName("group"):
     name = group.getAttribute("name").replace(" ","")
-    if name=="StateDirective":
-        name = "MethodCallDirective"
-    elif name == "SynchronizationDirective":
-        name = "MiscellaneousDirective"
-    elif name == "AlternativeDirective":
-        name = "MiscellaneousDirective"
+    # if name=="StateDirective":
+    #     name = "MethodCallDirective"
+    # elif name == "SynchronizationDirective":
+    #     name = "MiscellaneousDirective"
+    # elif name == "AlternativeDirective":
+    #     name = "MiscellaneousDirective"
 
     directives = group.getElementsByTagName("directive")
     randomList = []
@@ -44,10 +44,11 @@ for group in dataset.getElementsByTagName("group"):
 
     i = 0;
     for directive in directives:
+        kind = directive.getAttribute("kind").replace(" ", "").decode("utf-8").encode("utf-8")
         line = " "+(directive.firstChild.wholeText.strip())
         line = line.decode("utf-8").encode("utf-8")
         line = line.replace("\t"," ").replace("\n"," ")
-        line = line + "\t__label__" + name + "\n"
+        line = line + "\t__label__" + kind + "\n"
         line = line.decode("utf-8").encode("utf-8")
         files[randomList[i]].write(line)
         i = i+1

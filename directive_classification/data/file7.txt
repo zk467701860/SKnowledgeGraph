@@ -1,622 +1,622 @@
- @param value the value to add, must not be null	__label__MethodCallDirective
- @param pair the pair to copy, must not be null	__label__MethodCallDirective
- @param set the set to decorate, must not be null	__label__MethodCallDirective
- @param collection the collection to decorate, must not be null	__label__MethodCallDirective
- @param list the list to decorate, must not be null	__label__MethodCallDirective
- @param factory the factory to use, must not be null	__label__MethodCallDirective
- @param map the map to decorate, must not be null	__label__MethodCallDirective
- @throws IllegalArgumentException if map or factory is null	__label__MethodCallDirective
- @throws IllegalArgumentException if list is null	__label__MethodCallDirective
- @param iterator the iterator to decorate, must not be null	__label__MethodCallDirective
- @throws IllegalArgumentException if the collection is null	__label__MethodCallDirective
- @throws IllegalArgumentException if map is null	__label__MethodCallDirective
- @throws IllegalArgumentException if set is null	__label__MethodCallDirective
- @throws IllegalArgumentException if the collection is null	__label__MethodCallDirective
- @throws IllegalArgumentException if bag or transformer is null	__label__MethodCallDirective
- @throws IllegalArgumentException if bag or transformer is null	__label__MethodCallDirective
- @throws IllegalArgumentException if either predicate is null	__label__MethodCallDirective
- @throws IllegalArgumentException if any predicate in the collection is null	__label__MethodCallDirective
- @param a the first (sub?) collection, must not be null	__label__MethodCallDirective
- @param list the list to decorate, must not be null	__label__MethodCallDirective
- @param factory the factory to use, must not be null	__label__MethodCallDirective
- @param buffer the buffer to decorate, must not be null	__label__MethodCallDirective
- @param buffer the buffer to make unmodifiable, must not be null	__label__MethodCallDirective
- @param predicate the predicate to use for validation, must not be null	__label__MethodCallDirective
- @param transformer the transformer to use for conversion, must not be null	__label__MethodCallDirective
- @param predicate the predicate to use for validation, must not be null	__label__MethodCallDirective
- @param buffer the buffer to decorate, must not be null	__label__MethodCallDirective
- @param list the list to decorate, must not be null	__label__MethodCallDirective
- @param transformer the transformer to use as a factory to create entries, must not be null	__label__MethodCallDirective
- @param collection the collection to predicate, must not be null	__label__MethodCallDirective
- @throws FunctorException if input is null	__label__MethodCallDirective
- @param closure the closure to call repeatedly, not null	__label__MethodCallDirective
- @throws NullPointerException if the key is null	__label__MethodCallDirective
- @throws NullPointerException if either parameter is null	__label__MethodCallDirective
- @param lock the lock to use, must not be null	__label__MethodCallDirective
- This implementation uses the equals method and assumes neither value is null.	__label__MethodCallDirective
- @throws IllegalArgumentException if bag is null	__label__MethodCallDirective
- @param map the map to synchronize, must not be null	__label__MethodCallDirective
- @param transformer the transformer for the bag, must not be null	__label__MethodCallDirective
- @param map the map to decorate, must not be null	__label__MethodCallDirective
- @param entry the entry to query, must not be null	__label__MethodCallDirective
- @param map the map to make lazy, must not be null	__label__MethodCallDirective
- @param predicates array of predicates, not cloned, no nulls	__label__MethodCallDirective
- @throws IllegalArgumentException if the transformer or the predicate is null	__label__MethodCallDirective
- @throws NullPointerException if array is null	__label__MethodCallDirective
- @throws NullPointerException if the stream is null	__label__MethodCallDirective
- @param keyStroke a single key stroke. Must not be null.	__label__MethodCallDirective
- @param predicate2 the second predicate, may not be null	__label__MethodCallDirective
- @param exception The ExecutionException, never null.	__label__MethodCallDirective
- @param readMethod May be null if the property is write-only	__label__MethodCallDirective
- null means catalog name should not be used to narrow down the search.	__label__MethodCallDirective
- If subjectKeyID is not null, it should contain a single DER encoded value corresponding to the contents of the extension value (not including the object identifier, criticality setting, and encapsulating OCTET STRING) for a SubjectKeyIdentifier extension.	__label__MethodCallDirective
- If key is not null, it should contain a single DER encoded SubjectPublicKeyInfo structure, as defined in X.509.	__label__MethodCallDirective
- Specify null to return all CRLs (if supported).	__label__MethodCallDirective
- @param envp array of strings, each element of which has environment variable settings in the format name=value, or null if the subprocess should inherit the environment of the current process.	__label__MethodCallDirective
- @param encoding The name of a supported character encoding. May be null, to indicate the default platform encoding.	__label__MethodCallDirective
- @param valueTransformer the transformer to use for value conversion, null means no transformation	__label__MethodCallDirective
- @param valueTransformer the predicate to validate to values, null means no transformation	__label__MethodCallDirective
- @param comparator the comparator used to order the elements, null means use natural order	__label__MethodCallDirective
- @param actions should be null	__label__MethodCallDirective
- the actions String is currently unused and should be null.	__label__MethodCallDirective
- The group name must not be null or the empty string.	__label__MethodCallDirective
- Note that the empty string is not treated the same as null; it indicates an error state but with no message to display.	__label__MethodCallDirective
- @param size the size to which to set the receive buffer size. This value must be greater than 0.	__label__MethodCallDirective
- The mode argument must be either OPEN_READ or OPEN_READ | OPEN_DELETE.	__label__MethodCallDirective
- The mode argument must be either OPEN_READ or OPEN_READ | OPEN_DELETE.	__label__MethodCallDirective
- This value may be negative, in which case releases must occur before any acquires will be granted.	__label__MethodCallDirective
- @param valueType the type of reference to use for values; must be {@link #HARD}, {@link #SOFT}, {@link #WEAK}	__label__MethodCallDirective
- @param valueType the type of reference to use for values; must be {@link #HARD}, {@link #SOFT}, {@link #WEAK}	__label__MethodCallDirective
- @param valueType the type of reference to use for values; must be {@link #HARD}, {@link #SOFT}, {@link #WEAK}	__label__MethodCallDirective
- @param keyType the type of reference to use for keys; must be {@link #HARD}, {@link #SOFT}, {@link #WEAK}	__label__MethodCallDirective
- @param autoGeneratedKeys one of the following constants: Statement.RETURN_GENERATED_KEYS or Statement.NO_GENERATED_KEYS	__label__MethodCallDirective
- This value is always in the range 0 through count. If it is less than count, then buf[pos] is the next byte to be supplied as input; if it is equal to count, then the next read or skip operation will require more bytes to be read from the contained input stream.	__label__MethodCallDirective
- The format of the IPv6reference should follow that specified in RFC 2732: Format for Literal IPv6 Addresses in URLs	__label__MethodCallDirective
- The characters in the string must all be decimal digits, except that the first character may be an ASCII minus sign '-' ('\u002D') to indicate a negative value	__label__MethodCallDirective
- If the authority contains a literal IPv6 address then the address must be enclosed in square brackets ('[' and ']').	__label__MethodCallDirective
- The filename argument must be a complete path name, (for example Runtime.getRuntime().load("/home/avh/lib/libX11.so");).	__label__MethodCallDirective
- Either the text-argument must already be present in the sequence, or some initial substring of the text-argument must be present. (e.g. "a < b & ae < e" is valid since "a" is present in the sequence before "ae" is reset). In this latter case, "ae" is not entered and treated as a single character; instead, "e" is sorted as if it were expanded to two characters: "a" followed by an "e". This difference appears in natural languages: in traditional Spanish "ch" is treated as though it contracts to a single character (expressed as "c < ch < d"), while in traditional German a-umlaut is treated as though it expanded to two characters (expressed as "a,A < b,B ... &ae;\u00e3&AE;\u00c3"). [\u00e3 and \u00c3 are, of course, the escape sequences for a-umlaut.] Ignorable Characters For ignorable characters, the first rule must start with a relation	__label__MethodCallDirective
- Note: The World Wide Web Consortium Recommendation states that UTF-8 should be used. Not doing so may introduce incompatibilites.	__label__MethodCallDirective
- The selection criterion must be specified in one of the following two formats:	__label__MethodCallDirective
- The specified provider must be registered in the security provider list.	__label__MethodCallDirective
- The file should contain a list of fully-qualified concrete provider class names, one per line.	__label__MethodCallDirective
- @param name A name for the logger. This should be a dot-separated name and should normally be based on the package name or class name of the subsystem, such as java.net or javax.swing.	__label__MethodCallDirective
- Note that it is not sufficient to only examine the character preceding a line terminator sequence to decide if the line terminator is escaped; there must be an odd number of contiguous backslashes for the line terminator to be escaped.	__label__MethodCallDirective
- HTTP requires all request properties which can legally have multiple instances with the same key to use a comma-seperated list syntax which enables multiple properties to be appended into a single property.	__label__MethodCallDirective
- @param nameConstraints a byte array containing the ASN.1 DER encoding of a NameConstraints extension to be used for checking name constraints. Only the value of the extension is included, not the OID or criticality flag.	__label__MethodCallDirective
- Whether aliases are case sensitive is implementation dependent. In order to avoid problems, it is recommended not to use aliases in a KeyStore that only differ in case.	__label__MethodCallDirective
- All elements inserted into the set must implement the {@link Comparable} interface.	__label__MethodCallDirective
- All elements in the collection must be mutually comparable by the specified comparator (that is, comp.compare(e1, e2) must not throw a ClassCastException for any elements e1 and e2 in the collection).	__label__MethodCallDirective
- All elements in the range must be mutually comparable by the specified comparator (that is, c.compare(e1, e2) must not throw a ClassCastException for any elements e1 and e2 in the range).	__label__MethodCallDirective
- @param node the node to add, which must implement IPreferenceNode	__label__MethodCallDirective
- Both key and value must implement Comparable.	__label__MethodCallDirective
- @param obj the object to be serialized (must be serializable)	__label__MethodCallDirective
- To successfully store and retrieve objects from a hashtable, the objects used as keys must implement the hashCode method and the equals method.	__label__MethodCallDirective
- The initial index of the range (from) must lie between zero and original.length, inclusive.	__label__MethodCallDirective
- In that case, the number of bands in the source Raster must match the number of components in srcCspace, and the number of bands in the destination Raster must match the number of components in dstCspace	__label__MethodCallDirective
- If the protected key is of type java.security.PrivateKey, it must be accompanied by a certificate chain certifying the corresponding public key	__label__MethodCallDirective
- The length argument must be less than or equal to buf.length	__label__MethodCallDirective
- The final index of the range (to), which must be greater than or equal to from, may be greater than original.length, in which case '\\u000' is placed in all elements of the copy whose index is greater than or equal to original.length - from.	__label__MethodCallDirective
- The initial index of the range (from) must lie between zero and original.length, inclusive.	__label__MethodCallDirective
- Ideally, you should choose a value to accommodate as many threads as will ever concurrently modify the table.	__label__MethodCallDirective
- @param b the bytes that make up the class data. The bytes in positions off through off+len-1 should have the format of a valid class file as defined by the Java Virtual Machine Specification.	__label__MethodCallDirective
- In a simple case, a partition token scanner must always start at a partition boundary.	__label__MethodCallDirective
- If getKey() or getValue() returns null, it means the mapping is stale and should be removed.	__label__MethodCallDirective
- Any color allocated in this manner must be disposed by calling {@link #destroyColor(RGB)}, or by an eventual call to {@link #dispose()}. {@link Color#dispose()} must never been called directly on the returned color.	__label__MethodCallDirective
- If uppercase letters are desired, the {@link java.lang.String#toUpperCase()} method may be called on the result:       Integer.toHexString(n).toUpperCase()	__label__MethodCallDirective
- @return All of the active bindings (Binding), not sorted in any fashion. This collection may be empty, but it is never null.	__label__MethodCallDirective
- Returns 0 after EOF has been reached, otherwise always return 1.	__label__MethodCallDirective
- @return The active locale; never null.	__label__MethodCallDirective
- @return The context identifier; never null.	__label__MethodCallDirective
- @return Read-only {@link Map} of the current conflicts. If no conflicts, then return an empty map. Never null	__label__MethodCallDirective
- @return the number of processors available to the virtual machine; never smaller than one.	__label__MethodCallDirective
- The computed result must be within 1 ulp of the exact result.	__label__MethodCallDirective
- Returns an array of all locales for which the getInstance methods of this class can return localized instances. It must contain at least a Locale instance equal to {@link java.util.Locale#US Locale.US}	__label__MethodCallDirective
- The computed result must be within 1 ulp of the exact result. Results must be semi-monotonic.	__label__MethodCallDirective
- The computed result must be within 1 ulp of the exact result. If one parameter is held constant, the results must be semi-monotonic in the other parameter.	__label__MethodCallDirective
- The computed result must be within 2.5 ulps of the exact result.	__label__MethodCallDirective
- The certificate chain must have been associated with the alias by a call to setKeyEntry, or by a call to setEntry with a PrivateKeyEntry.	__label__MethodCallDirective
- The key must have been associated with the alias by a call to setKeyEntry, or by a call to setEntry with a PrivateKeyEntry or SecretKeyEntry.	__label__MethodCallDirective
- keySpec identifies the specification class in which the key material should be returned. It could, for example, be DSAPublicKeySpec.class, to indicate that the key material should be returned in an instance of the DSAPublicKeySpec class.	__label__MethodCallDirective
- Subclasses should always return actions in what they consider to be their canonical form.	__label__MethodCallDirective
- @return a new looping iterator	__label__MethodCallDirective
- @return a new list containing the results	__label__MethodCallDirective
- If this set makes any guarantees as to what order its elements are returned by its iterator, this method must return the elements in the same order.	__label__MethodCallDirective
- In dialogs implemented by JFace, this will be an IDialogPage.	__label__MethodCallDirective
- The list returned by this method must have at least one String.	__label__MethodCallDirective
- The computed result must be within 1 ulp of the exact result. Results must be semi-monotonic.	__label__MethodCallDirective
- @return never @throws FunctorException always	__label__MethodCallDirective
- @return true if the range of characters requires bidi analysis	__label__MethodCallDirective
- @return the image to be shown or null if no image is desired	__label__MethodCallDirective
- This is not intended to be called outside of the workbench.	__label__MethodCallDirective
- This field should not be referenced by subclasses.	__label__MethodCallDirective
- Denigrated, use {@linkplain #setSubject(X500Principal)} or {@linkplain #setSubject(byte[])} instead. This method should not be relied on as it can fail to match some certificates because of a loss of encoding information in the RFC 2253 String form of some distinguished names.	__label__MethodCallDirective
- Denigrated, replaced by {@linkplain #getSubjectX500Principal()}. This method returns the subject as an implementation specific Principal object, which should not be relied upon by portable code.	__label__MethodCallDirective
- Constructor only used in deserialization, do not use otherwise.	__label__MethodCallDirective
- Constructor only used in deserialization, do not use otherwise.	__label__MethodCallDirective
- Note that this class is abstract and extends from SignatureSpi for historical reasons. Application developers should only take notice of the methods defined in this Signature class; all the methods in the superclass are intended for cryptographic service providers who wish to supply their own implementations of digital signature algorithms.	__label__MethodCallDirective
- This method is public for performance reasons only, to avoid a clone.	__label__MethodCallDirective
- This method is internal to the framework; subclassers should not call this method.	__label__MethodCallDirective
- This method is internal to the framework; subclassers should not call this method.	__label__MethodCallDirective
- @deprecated this method should not be used.	__label__MethodCallDirective
- Due to the platform-dependent nature of the behavior of this constructor, extreme care should be exercised in its use.	__label__MethodCallDirective
- Note: In general, clients should use Calendar.get(ZONE_OFFSET) + Calendar.get(DST_OFFSET) instead of calling this method.	__label__MethodCallDirective
- CollectionUtils should not normally be instantiated.	__label__MethodCallDirective
- Because Properties inherits from Hashtable, the put and putAll methods can be applied to a Properties object. Their use is strongly discouraged as they allow the caller to insert entries whose keys or values are not Strings. The setProperty method should be used instead.	__label__MethodCallDirective
- This method should only be called from overriding methods or from setInformation.	__label__MethodCallDirective
- Note: This method is not intended to be referenced or overridden by clients.	__label__MethodCallDirective
- This method is intended to be used only for debugging purposes, and the format of the returned string may vary between implementations.	__label__MethodCallDirective
- The output stream for writing the attributes of a user-defined type back to the database. This interface, used only for custom mapping, is used by the driver, and its methods are never directly invoked by a programmer.	__label__MethodCallDirective
- It should never be accessed by application code.	__label__MethodCallDirective
- @noinstantiate This class is not intended to be instantiated by clients.	__label__MethodCallDirective
- NOTE: This class is obsolete. New implementations should implement the Map interface, rather than extending this class.	__label__MethodCallDirective
- A more complete and consistent set of LIFO stack operations is provided by the {@link Deque} interface and its implementations, which should be used in preference to this class.	__label__MethodCallDirective
- This class is for Preferences implementers only. Normal users of the Preferences facility should have no need to consult this documentation.	__label__MethodCallDirective
- Therefore, it would be wrong to write a program that depended on this exception for its correctness: the fail-fast behavior of iterators should be used only to detect bugs.	__label__MethodCallDirective
- This concrete dialog class can be instantiated as is	__label__MethodCallDirective
- This concrete dialog class can be instantiated as is	__label__MethodCallDirective
- This class may be used as is	__label__MethodCallDirective
- Clients may use this class, although this is not usually needed except when implementing a custom template preference page or template store.	__label__MethodCallDirective
- @throws IOException if an I/O error occurs or this stream is already closed	__label__MethodCallDirective
- @throws ZipException if a compression (ZIP) format error occurs	__label__MethodCallDirective
- @exception IOException on encoding errors, or if this parameter object has not been initialized.	__label__MethodCallDirective
- @exception SocketException if there is an error in the underlying protocol, such as a TCP error.	__label__MethodCallDirective
- @exception IOException if an I/O error occurs.	__label__MethodCallDirective
- If a security manager exists, its {@link SecurityManager#checkPermission checkPermission} method is called with a {@link RuntimePermission}("getenv."+name) permission. This may result in a {@link SecurityException} being thrown. If no exception is thrown the value of the variable name is returned.	__label__MethodCallDirective
- The view's iterator is a "weakly consistent" iterator that will never throw {@link ConcurrentModificationException}, and guarantees to traverse elements as they existed upon construction of the iterator, and may (but is not guaranteed to) reflect any modifications subsequent to construction.	__label__MethodCallDirective
- @throws IllegalMonitorStateException if this lock is not held @throws IllegalArgumentException if the given condition is not associated with this lock @throws NullPointerException if the condition is null	__label__MethodCallDirective
- @throws ClassCastException (runtime) if the input is the wrong class @throws IllegalArgumentException (runtime) if the input is invalid @throws FunctorException (runtime) if any other error occurs	__label__MethodCallDirective
- @exception IOException if an error is encountered.	__label__MethodCallDirective
- Checked exception types thrown by underlying scripting implementations must be wrapped in instances of ScriptException.	__label__MethodCallDirective
- This exception must be thrown in a consistent fashion for synchronization to work correctly.	__label__MethodCallDirective
- @throws Throwable the exception to throw from the method invocation on the proxy instance. The exception's type must be assignable either to any of the exception types declared in the throws clause of the interface method or to the unchecked exception types java.lang.RuntimeException or java.lang.Error.	__label__MethodCallDirective
- @throws CertPathValidatorException if this PKIXCertPathChecker is unable to check certificates in the specified order; it should never be thrown if the forward flag is false since reverse checking must be supported	__label__MethodCallDirective
- This exception must be thrown in a consistent fashion for synchronization to work correctly.	__label__MethodCallDirective
- @exception IllegalArgumentException if the specified object is not an instance of the class or interface declaring the underlying field (or a subclass or implementor thereof)	__label__MethodCallDirective
- @exception SQLException if parameterName does not correspond to a named parameter; if a database access error occurs or this method is called on a closed CallableStatement @exception SQLFeatureNotSupportedException if the JDBC driver does not support this method	__label__MethodCallDirective
- @exception SQLException if the columnLabel is not valid; if a database access error occurs; the result set concurrency is CONCUR_READ_ONLY or this method is called on a closed result set @exception SQLFeatureNotSupportedException if the JDBC driver does not support this method	__label__MethodCallDirective
- All elements in the collection must implement the Comparable interface.	__label__MethodCallDirective
- The list must be sorted into ascending order according to the {@linkplain Comparable natural ordering} of its elements (as by the {@link #sort(List)} method) prior to making this call.	__label__MethodCallDirective
- The given CompositeData must contain the following attributes as well as the attributes specified in the mapped type for the {@link LockInfo} class	__label__MethodCallDirective
- The name constraints are specified as a byte array. This byte array should contain the DER encoded form of the name constraints, as they would appear in the NameConstraints structure defined in RFC 2459 and X.509.	__label__MethodCallDirective
- The array must be sorted into ascending order according to the {@linkplain Comparable natural ordering} of its elements (as by the {@link #sort(Object[])} method) prior to making this call.	__label__MethodCallDirective
- @param parentCatalog a catalog name; must match the catalog name as it is stored in the database;	__label__MethodCallDirective
- @param procedureNamePattern a procedure name pattern; must match the procedure name as it is stored in the database	__label__MethodCallDirective
- @param catalog a catalog name; must match the catalog name as it is stored in the database; "" retrieves those without a catalog; null means that the catalog name should not be used to narrow the search	__label__MethodCallDirective
- The XML document must have the following DOCTYPE declaration:	__label__MethodCallDirective
- To instantiate a PKIXBuilderParameters object, an application must specify one or more most-trusted CAs as defined by the PKIX certification path validation algorithm.	__label__MethodCallDirective
- @param schemaPattern a schema name pattern; must match the schema name as it is stored in the database; "" retrieves those without a schema; null means that the schema name should not be used to narrow the search	__label__MethodCallDirective
- @param catalog a catalog name; must match the catalog name as it is stored in the database; "" retrieves those without a catalog; null means that the catalog name should not be used to narrow the search	__label__MethodCallDirective
- @param catalog a catalog name; must match the catalog name as it is stored in the database; "" retrieves those without a catalog; null means that the catalog name should not be used to narrow the search	__label__MethodCallDirective
- @param tableNamePattern a table name pattern; must match the table name as it is stored in the database	__label__MethodCallDirective
- The range must be sorted (as by the {@link #sort(long[], int, int)} method) prior to making this call	__label__MethodCallDirective
- @param caller the principal invoking this method. It must be an owner of this ACL.	__label__MethodCallDirective
- Fixed-delay execution is appropriate for recurring activities that require "smoothness." In other words, it is appropriate for activities where it is more important to keep the frequency accurate in the short run than in the lon	__label__MethodCallDirective
- @param originalDevice must be the same Device that was passed into the font's constructor when it was first created.	__label__MethodCallDirective
- Be aware of the fact that you should at least position the tool tip 1px right to your mouse cursor else click events may not get propagated properly.	__label__MethodCallDirective
- The default implementation of this framework method assumes that widget.getData() returns the element corresponding to the node.	__label__MethodCallDirective
- If there is a marked position in the input stream, then buf[markpos] is the first byte to be supplied as input after a reset operation.	__label__MethodCallDirective
- @param unit This parameter is ignored as the method never blocks	__label__MethodCallDirective
- Clients may neither instantiate this class nor extend.	__label__SubclassingDirective
- This class is not intended to be called or extended by any external clients.	__label__SubclassingDirective
- @noextend This class is not intended to be subclassed by clients.	__label__SubclassingDirective
- Not intended to be subclassed.	__label__SubclassingDirective
- @noextend This class is not intended to be subclassed by clients.	__label__SubclassingDirective
- @noextend This class is not intended to be subclassed by clients.	__label__SubclassingDirective
- Clients may extend this class.	__label__SubclassingDirective
- It is recommended to subclass this class instead of Dialog in all cases except where the dialog should never show a tray.	__label__SubclassingDirective
- This class may be used as is, or subclassed to provide richer labels.	__label__SubclassingDirective
- This class is intended to be subclassed	__label__SubclassingDirective
- Clients may implement this interface and its extension interfaces	__label__SubclassingDirective
- This class and all of its methods may be overridden or extended.	__label__SubclassingDirective
- Clients are expected to implement this interface in order to create a particular kind of control for decoration.	__label__SubclassingDirective
- The interface can be implemented by clients.	__label__SubclassingDirective
- Clients may implement this interface.	__label__SubclassingDirective
- The interface can be implemented by clients. By default, clients use {@link QuickAssistAssistant} as the standard implementer of this interface.	__label__SubclassingDirective
- This interface may be implemented by clients.	__label__SubclassingDirective
- Clients may implement this interface.	__label__SubclassingDirective
- Clients may implement this interface.	__label__SubclassingDirective
- An abstract implementation of a hash-based map which provides numerous points for subclasses to override.	__label__SubclassingDirective
- Subclasses may extend or override.	__label__SubclassingDirective
- Subclasses may extend.	__label__SubclassingDirective
- Subclasses may extend	__label__SubclassingDirective
- Subclasses may extend.	__label__SubclassingDirective
- Subclasses may extend or reimplement.	__label__SubclassingDirective
- Subclasses may override.	__label__SubclassingDirective
- Subclasses can override or extend.	__label__SubclassingDirective
- close- extend to free other SWT resources	__label__SubclassingDirective
- createContents- extend or reimplement to create controls before window opens	__label__SubclassingDirective
- getInitialLocation- reimplement to give the initial location for the shell	__label__SubclassingDirective
- Subclasses should extend if extra pages need to be added before the wizard opens.	__label__SubclassingDirective
- Subclasses may reimplement or extend.	__label__SubclassingDirective
- Subclasses may reimplement or extend.	__label__SubclassingDirective
- performHelp - may be reimplemented to display help for the page	__label__SubclassingDirective
- Subclasses may override.	__label__SubclassingDirective
- Subclasses should override to update their state.	__label__SubclassingDirective
- Subclasses may override.	__label__SubclassingDirective
- Subclasses may override.	__label__SubclassingDirective
- Subclasses should override this method.	__label__SubclassingDirective
- Subclasses must implement this method to provide a corresponding new string for the text field.	__label__SubclassingDirective
- This is a framework hook method for subclasses to return a page-specific preference store.	__label__SubclassingDirective
- Subclasses must implement this method.	__label__SubclassingDirective
- Subclasses must implement this method.	__label__SubclassingDirective
- Subclasses must implement the getSize and fill methods.	__label__SubclassingDirective
- May be replaced or extended by subclasses.	__label__SubclassingDirective
- May be replaced or extended by subclasses.	__label__SubclassingDirective
- May be replaced or extended by subclasses.	__label__SubclassingDirective
- May be extended by subclasses.	__label__SubclassingDirective
- Subclasses need to provide implementations for {@link #getTemplates(String)}, {@link #getContextType(ITextViewer, IRegion)} and {@link #getImage(Template)}.	__label__SubclassingDirective
- Subclasses must either override {@link IInformationControl#setInformation(String)} or implement {@link IInformationControlExtension2}.	__label__SubclassingDirective
- This method should be overridden by a subclass.	__label__SubclassingDirective
- The corresponding method in ObjectInputStream, readClassDescriptor, should then be overridden to reconstitute the class descriptor from its custom stream representation.	__label__SubclassingDirective
- This method should be overridden by subclasses.	__label__SubclassingDirective
- . This should be overridden by a specific security manager to return the appropriate thread group.	__label__SubclassingDirective
- Knowledgeable providers should override this method.	__label__SubclassingDirective
- Subclasses should override this method with a correct implementation.	__label__SubclassingDirective
- Subclasses should override this method with a correct implementation.	__label__SubclassingDirective
- Subclasses may override	__label__SubclassingDirective
- Subclasses may override	__label__SubclassingDirective
- lass loader implementations should override this method to specify where to load resources from.	__label__SubclassingDirective
- Applications that want a stricter policy should override this method.	__label__SubclassingDirective
- Clients can override.	__label__SubclassingDirective
- Clients may override, in particular, clients can return 0 to denote that two subsequent mouse clicks in a cell should not be interpreted as a double click.	__label__SubclassingDirective
- Subclasses may want to override this behavior to remain consistent with the {@link Comparator#equals(Object) equals} contract.	__label__SubclassingDirective
- Subclasses can override this to create a different class.	__label__SubclassingDirective
- Subclasses can override this to return a different storage class, or implement caching.	__label__SubclassingDirective
- Subclasses could override to handle changes to the map.	__label__SubclassingDirective
- Subclasses may override if the subclass has a specific field that must be present before put() or calculateThreshold() will work correctly.	__label__SubclassingDirective
- Subclasses can override this to return iterators with different properties.	__label__SubclassingDirective
- Subclasses can override this to return iterators with different properties.	__label__SubclassingDirective
- Subclasses must override getContents and provide an array, where each item in the array is a pair of objects.	__label__SubclassingDirective
- It is recommended that subclasses override this method.	__label__SubclassingDirective
- Classes for that connection type can override this method and short-circuit the parsing.	__label__SubclassingDirective
- Subclasses may override this method to invoke completion callbacks or perform bookkeeping.	__label__SubclassingDirective
- Typically, additional methods will be overridden as well.	__label__SubclassingDirective
- Do neither call nor override.	__label__SubclassingDirective
- f override this, be sure to call super.	__label__SubclassingDirective
- Code overriding this method should call super.removeNotify as the first line of the overriding method.	__label__SubclassingDirective
- Any subclass of RequiredModelMBean overloading or overriding this method should call super.postRegister(registrationDone)	__label__SubclassingDirective
- To conditionally drag from certain areas subclass mousePressed and call super when you wish the dragging to begin.	__label__SubclassingDirective
- extend dispose	__label__SubclassingDirective
- dispose - may be extended to dispose additional allocated SWT resources	__label__SubclassingDirective
- If you override this method, then you should make a call to super.checkPrintJobAccess at the point the overridden method would normally throw an exception.	__label__SubclassingDirective
- If you override this method, then you should make a call to super.checkPropertiesAccess at the point the overridden method would normally throw an exception.	__label__SubclassingDirective
- Note: To properly nest multiple overridings, subclasses should generally invoke super.beforeExecute at the end of this method.	__label__SubclassingDirective
- A concrete subclass of this class must call this constructor when it is activated via the two parameter constructor described above.	__label__SubclassingDirective
- Subclasses of Component that override this method should either call super.update(g), or call paint(g) directly from their update method.	__label__SubclassingDirective
- If a connection cannot be established to a proxy (PROXY or SOCKS) servers then the caller should call the proxy selector's {@link #connectFailed connectFailed} method to notify the proxy selector that the proxy server is unavailable.	__label__SubclassingDirective
- This method must not modify the parent's layout.	__label__SubclassingDirective
- SocketPermission objects must be stored in a manner that allows them to be inserted into the collection in any orde	__label__SubclassingDirective
- BasicPermission objects must be stored in a manner that allows them to be inserted in any order,	__label__SubclassingDirective
- Classes that require special handling during the serialization and deserialization process must implement special methods with these exact signatures	__label__SubclassingDirective
- This method simply informs the group's monitor that the object is inactive. It is up to the concrete subclass of ActivationGroup to fulfill the additional requirement of unexporting the object.	__label__SubclassingDirective
- Implementations may, but are not required to, throw this exception if toKey cannot be compared to keys currently in the map.	__label__SubclassingDirective
- If no such object exists, the map should be "wrapped" using the {@link Collections#synchronizedMap Collections.synchronizedMap} method.	__label__SubclassingDirective
- To implement clone(), a subclass must implement the Cloneable interface and make this method public.	__label__SubclassingDirective
- This method should query if the state of the object permits it to be acquired in the exclusive mode, and if so to acquire it.	__label__SubclassingDirective
- This method should query if the state of the object permits it to be acquired in the shared mode, and if so to acquire it.	__label__SubclassingDirective
- Remove any members of the bag that are not in the given collection, respecting cardinality. That is, if the given collection coll contains n copies of a given object and the bag has m > n copies, then delete m - n copies from the bag. In addition, if e is an object in the bag but !coll.contains(e), then remove e and any of its copies.	__label__SubclassingDirective
- It must also obey the interruption semantics as defined in this interface, to the extent that interruption of lock acquisition is supported: which is either totally, or only on method entry.	__label__SubclassingDirective
- This method must be symmetric with a call to {@link #save(IPreferenceStore, String)}.	__label__SubclassingDirective
- For a class to be retransformed, {@link #isRetransformClassesSupported} must also be true. But the value of isRetransformClassesSupported() does not influence the value returned by this function. For a class to be redefined, {@link #isRedefineClassesSupported} must also be true. But the value of isRedefineClassesSupported() does not influence the value returned by this function.	__label__SubclassingDirective
- Note that it is generally necessary to override the hashCode method whenever this method is overridden, so as to maintain the general contract for the hashCode method, which states that equal objects must have equal hash codes.	__label__SubclassingDirective
- This strategy is ignored if the implementer does not also specify the dialog settings for storing the bounds in Dialog.getDialogBoundsSettings().	__label__SubclassingDirective
- Overriding this method is generally not required if the number of different keys is small. If a more efficient representation of a viewer's properties is required, override both getData and setData.	__label__SubclassingDirective
- This quick assist assistant will only be able to query the invocation context if sourceViewer also implements {@link ISourceViewerExtension3}.	__label__SubclassingDirective
- programmers should take note that any class that overrides the Object.equals method must also override the Object.hashCode method in order to satisfy the general contract for the Object.hashCodemethod	__label__SubclassingDirective
- Note that the ordering maintained by a set (whether or not an explicit comparator is provided) must be consistent with equals if it is to correctly implement the { Set} interface.	__label__SubclassingDirective
- Returns the column properties of this viewer. The properties must correspond with the columns of the table control.	__label__SubclassingDirective
- The reader must present a serialized form as produced by the save method.	__label__SubclassingDirective
- When a subclass is replacing objects it must insure that either a complementary substitution must be made during deserialization or that the substituted object is compatible with every field where the reference will be stored.	__label__SubclassingDirective
- Concrete subclasses of {@link ColumnViewer} should implement a matching concrete subclass of {@link ViewerColumn}.	__label__SubclassingDirective
- Should be called whenever needsInput() returns true indicating that more input data is required.	__label__MethodCallDirective
- must be called during DropTargetListener.drop method invocation.	__label__MethodCallDirective
- The option must be enabled prior to entering the blocking operation to have effect.	__label__MethodCallDirective
- This method must be called before any of the dialog unit based conversion methods are called.	__label__MethodCallDirective
- This method may only be called after initializeDialogUnits has been called.	__label__MethodCallDirective
- This should be invoked after defining a class.	__label__MethodCallDirective
- The type of all OUT parameters must be registered prior to executing the stored procedure; their values are retrieved after execution via the get methods provided here.	__label__MethodCallDirective
- And as described in SQLData, calls to reader methods must be made in the order that their corresponding attributes appear in the SQL definition of the type.	__label__MethodCallDirective
- All streams must be closed before execute() occurs or an SQLException will be thrown.	__label__MethodCallDirective
- The "last used" Iterator is the Iterator upon which next() or hasNext() was most recently called used for the remove() operation only	__label__MethodCallDirective
- Retrieves the current result as a ResultSet object. This method should be called only once per result.	__label__MethodCallDirective
- For maximum portability, a call's ResultSet objects and update counts should be processed prior to getting the values of output parameters.	__label__MethodCallDirective
- this method must allocate a new array even if this set is backed by an array	__label__MethodCallDirective
- Use {@link #hasNext} to avoid this error.	__label__MethodCallDirective
- If the same listener instance has been added to the listener table through multiple invocations of addPropertyChangeListener, then an equivalent number of removePropertyChangeListener invocations are required to remove all instances of that listener from the listener table.	__label__MethodCallDirective
- As the ILazyContentProvider does not have API for determining the total item count any changes to the number of items for this object while require a call to #setItemCount on the viewer that uses it.	__label__MethodCallDirective
- Note that the dialog will have no visual representation (no widgets) until it is told to open.	__label__MethodCallDirective
- This method will be called before any other method and can be called multiple times.	__label__MethodCallDirective
- If this rules relies on a text pattern comprising a opening and a closing character sequence this method can also be called when the scanner is positioned already between the opening and the closing sequence. In this case, resume must be set to true.	__label__MethodCallDirective
- Once this method is called, the behavior of the Deflater object is undefined.	__label__MethodCallDirective
- Clients who created this column are responsible to call this method once the column is no longer used.	__label__MethodCallDirective
- Unlike {@link ISourceViewer#configure(SourceViewerConfiguration)} this method can be called more than once without interleaving calls to {@link ISourceViewer#configure(SourceViewerConfiguration)}.	__label__MethodCallDirective
- Note: It is the callers responsibility to prevent an endless loop i.e. to test whether a given anchor has already been used once.	__label__MethodCallDirective
- @throws IllegalStateException if this method is called more than once	__label__MethodCallDirective
- There must be an SWT Display created in the current thread before calling this method.	__label__MethodCallDirective
- This method must be called before this window's shell is created.	__label__MethodCallDirective
- Invoking this method will result in the creation of the returned node and its ancestors if they do not already exist. If the returned node did not exist prior to this call, this node and any ancestors that were created by this call are not guaranteed to become permanent until the flush method is called on the returned node (or one of its ancestors or descendants).	__label__MethodCallDirective
- Once a node has been removed, attempting any method other than {@link #name()}, {@link #absolutePath()}, {@link #isUserNode()}, {@link #flush()} or {@link #node(String) nodeExists("")} on the corresponding Preferences instance will fail with an IllegalStateException	__label__MethodCallDirective
- The current thread must own this object's monitor.	__label__MethodCallDirective
- The cursor must be on the insert row when this method is called.	__label__MethodCallDirective
- This version of registerOutParameter should be used when the parameter is of JDBC type NUMERIC or DECIMAL.	__label__MethodCallDirective
- This method should only be called by a thread that is the owner of this object's monitor.	__label__MethodCallDirective
- @throws UnsupportedOperationException if the comparator is locked	__label__MethodCallDirective
- The index must be a value greater than or equal to { 0} and less than the current size of the vector.	__label__MethodCallDirective
- Therefore, if the reading of one ResultSet object is interleaved with the reading of another, each must have been generated by different Statement objects.	__label__MethodCallDirective
- This field should be true if this node did not exist in the backing store prior to the creation of this object.	__label__MethodCallDirective
- @param originalDevice must be the same Device that was passed into the font's constructor when it was first created.	__label__MethodCallDirective
- After this method returns, the next character to be read will have the value cbuf[0], the character after that will have the value cbuf[1], and so forth.	__label__MethodCallDirective
- The table does not maintain strong references to its contained loaders, in order to allow them and their defined classes to be garbage collected when not otherwise reachable.	__label__MethodCallDirective
- Subclasses should either call the super implementation or, alternatively, {@link #initialize(ColumnViewer, ViewerColumn, boolean)}.	__label__MiscellaneousDirective
- Update(SIZE) should be called to adjust the widget.	__label__MiscellaneousDirective
- Clients should subclass the abstract base class Action to define concrete actions rather than implementing IAction from scratch.	__label__MiscellaneousDirective
- Instead, an application should register an activation descriptor and export a remote object separately, so that exceptions can be handled properly.	__label__MiscellaneousDirective
- Note: this method should not be used for file-locking, as the resulting protocol cannot be made to work reliably. The {@link java.nio.channels.FileLock FileLock} facility should be used instead.	__label__MiscellaneousDirective
- Denigrated, use {@linkplain #getSubject()} or {@linkplain #getSubjectAsBytes()} instead. This method should not be relied on as it can fail to match some certificates because of a loss of encoding information in the RFC 2253 String form of some distinguished names.	__label__MiscellaneousDirective
- No standard string format is defined for otherNames, X.400 names, EDI party names, IPv6 address names, or any other type of names. They should be specified using the {@link #addSubjectAlternativeName(int type, byte [] name) addSubjectAlternativeName(int type, byte [] name)} method.	__label__MiscellaneousDirective
- No standard string format is defined for otherNames, X.400 names, EDI party names, IPv6 address names, or any other type of names. They should be specified using the {@link #addPathToName(int type, byte [] name) addPathToName(int type, byte [] name)} method.	__label__MiscellaneousDirective
- The getLogWriter and setLogWriter methods should be used instead of the get/setlogStream methods, which are deprecated.	__label__MiscellaneousDirective
- If a new Float instance is not required, this method should generally be used in preference to the constructor {@link #Float(float)}, as this method is likely to yield significantly better space and time performance by caching frequently requested values.	__label__MiscellaneousDirective
- An application might use the activeCount method to get an estimate of how big the array should be,	__label__MiscellaneousDirective
- An application might use the activeCount method to get an estimate of how big the array should be	__label__MiscellaneousDirective
- The {@link java.nio.charset.CharsetDecoder} class should be used when more control over the decoding process is required.	__label__MiscellaneousDirective
- To find deadlocks involving both object monitors and ownable synchronizers, the {@link #findDeadlockedThreads findDeadlockedThreads} method should be used.	__label__MiscellaneousDirective
- In general, {@link java.lang.String#toUpperCase()} should be used to map characters to uppercase.	__label__MiscellaneousDirective
- Label providers for table tree viewers must implement either the ITableLabelProvider or the ILabelProvider interface (see TableTreeViewer.setLabelProvider for more details).	__label__MiscellaneousDirective
- Note that ListOrderedMap is not synchronized and is not thread-safe. If you wish to use this map from multiple threads concurrently, you must use appropriate synchronization. The simplest approach is to wrap this map using {@link java.util.Collections#synchronizedMap(Map)}.	__label__MiscellaneousDirective
- Note that TransformedMap is not synchronized and is not thread-safe. If you wish to use this map from multiple threads concurrently, you must use appropriate synchronization. The simplest approach is to wrap this map using {@link java.util.Collections#synchronizedMap(Map)}.	__label__MiscellaneousDirective
- Under many circumstances, linking Iterators together in this manner is more efficient (and convenient) than reading out the contents of each Iterator into a List and creating a new Iterator.	__label__MiscellaneousDirective
- Note that this method can be used to circumvent the map's value type at runtime.	__label__MiscellaneousDirective
- Use {@link org.apache.commons.collections.BufferUtils#synchronizedBuffer(Buffer)} or {@link org.apache.commons.collections.buffer.SynchronizedBuffer#decorate(Buffer)} to provide synchronized access to a PriorityBuffer:	__label__MiscellaneousDirective
- In previous versions of this class, it was mandatory to close all cursor objects to avoid memory leaks. It is no longer necessary to call this close method; an instance of this class can now be treated exactly like a normal iterator.	__label__MiscellaneousDirective
- If you subclass AbstractHashedMap but not HashEntry then you will not be able to access the protected fields. The entryXxx() methods on AbstractHashedMap exist to provide the necessary access.	__label__MiscellaneousDirective
- If the last value for a key is removed, implementations typically return null from a subsequant get(Object), however they may choose to return an empty collection.	__label__MiscellaneousDirective
- Like most collection implementations, EnumSet is not synchronized. If multiple threads access an enum set concurrently, and at least one of the threads modifies the set, it should be synchronized externally. This is typically accomplished by synchronizing on some object that naturally encapsulates the enum set. If no such object exists, the set should be "wrapped" using the {@link Collections#synchronizedSet} method.	__label__MiscellaneousDirective
- Instances of StringBuilder are not safe for use by multiple threads. If such synchronization is required then it is recommended that {@link java.lang.StringBuffer} be used.	__label__MiscellaneousDirective
- If these requirements cannot be met, consider instead subclassing {@link AbstractCollection}.	__label__MiscellaneousDirective
- The results of this constructor can be somewhat unpredictable and its use is generally not recommended; see the notes under the {@link #BigDecimal(double)} constructor.	__label__MiscellaneousDirective
- Overloadings of this method exist to initialize an enum set with one through five elements. A sixth overloading is provided that uses the varargs feature. This overloading may be used to create an enum set initially containing an arbitrary number of elements, but is likely to run slower than the overloadings that do not use varargs.	__label__MiscellaneousDirective
- Consult your JDBC driver documentation to determine if it might be more efficient to use a version of setNCharacterStream which takes a length parameter.	__label__MiscellaneousDirective
- SimpleDateFormat allows you to start by choosing any user-defined patterns for date-time formatting. However, you are encouraged to create a date-time formatter with either getTimeInstance, getDateInstance, or getDateTimeInstance in DateFormat.	__label__MiscellaneousDirective
- However, this class provides alternative protected extension method decorateTask (one version each for Runnable and Callable) that can be used to customize the concrete task types used to execute commands entered via execute, submit, schedule, scheduleAtFixedRate, and scheduleWithFixedDelay.	__label__MiscellaneousDirective
- Dialog does not use the following images in the registry DLG_IMG_ERROR DLG_IMG_INFO DLG_IMG_QUESTION DLG_IMG_WARNING They are now coming directly from SWT, see ImageRegistry. For backwards compatibility they are still supported, however new code should use SWT for these.	__label__MiscellaneousDirective
- Since the order of format elements in a pattern string often changes during localization, it's generally better to use the {@link #getFormatsByArgumentIndex getFormatsByArgumentIndex} method, which assumes an order of formats corresponding to the order of elements in the arguments array passed to the format methods or the result array returned by the parse methods.	__label__MiscellaneousDirective
- It should be set once either in the constructor or using this method.	__label__MiscellaneousDirective
- May fail spuriously and does not provide ordering guarantees, so is only rarely an appropriate alternative to { compareAndSet}.	__label__MiscellaneousDirective
- May fail spuriously and does not provide ordering guarantees, so is only rarely an appropriate alternative to { compareAndSet}.	__label__MiscellaneousDirective
- When using a capacity-restricted queue, this method is generally preferable to {@link #add}, which can fail to insert an element only by throwing an exception.	__label__MiscellaneousDirective
- Note that if both the integer quotient and remainder are needed, this method is faster than using the { divideToIntegralValue} and { remainder} methods separately because the division need only be carried out once.	__label__MiscellaneousDirective
- implementations must synchronized on the hierarchy lock	__label__MiscellaneousDirective
- Note that this implementation is not synchronized.	__label__MiscellaneousDirective
- DEADLOCK WARNING: Calling this method may call undoableEditHappened in all listeners. It is unwise to call this method from one of its listeners.	__label__MiscellaneousDirective
- It is imperative that the user manually synchronize on the returned sorted set when iterating over it or any of its subSet, headSet, or tailSet views.    SortedSet s = Collections.synchronizedSortedSet(new TreeSet());       ...   synchronized(s) {       Iterator i = s.iterator(); // Must be in the synchronized block       while (i.hasNext())           foo(i.next());   }	__label__MiscellaneousDirective
- Instances of this class need not be protected against concurrent access from multiple threads. Threads that need to access a single CertPathBuilderSpi instance concurrently should synchronize amongst themselves and provide the necessary locking before calling the wrapping CertPathBuilder object.	__label__MiscellaneousDirective
- Unless otherwise specified, the methods defined in this class are not thread-safe. Multiple threads that need to access a single object concurrently should synchronize amongst themselves and provide the necessary locking. Multiple threads each manipulating separate objects need not synchronize.	__label__MiscellaneousDirective
- Unless otherwise specified, the methods defined in this class are not thread-safe. Multiple threads that need to access a single object concurrently should synchronize amongst themselves and provide the necessary locking. Multiple threads each manipulating separate objects need not synchronize.	__label__MiscellaneousDirective
- Note that LazyMap is not synchronized and is not thread-safe. If you wish to use this map from multiple threads concurrently, you must use appropriate synchronization.	__label__MiscellaneousDirective
- Note that LinkedMap is not synchronized and is not thread-safe. If you wish to use this map from multiple threads concurrently, you must use appropriate synchronization.	__label__MiscellaneousDirective
- Note that this method should not synchronize the preferences in any subnodes of this node.	__label__MiscellaneousDirective
- All PolicyQualifierInfo objects must be immutable and thread-safe.	__label__MiscellaneousDirective
- Note that in context based mode the content formatter is fully reentrant, but not thread-safe.	__label__MiscellaneousDirective
- It is recommended that to avoid confusion you never use { Condition} instances in this way, except perhaps within their own implementation.	__label__MiscellaneousDirective
- Attempting to use both objects from a single thread is not recommended, as it may deadlock the thread.	__label__MiscellaneousDirective
- Furthermore, Enumerations returned via the elements method are not fail-fast. Modifications to a collection should not be performed while enumerating over that collection.	__label__MiscellaneousDirective
- This method is fully reentrant, but not thread-safe.	__label__MiscellaneousDirective
- DataInputStream is not necessarily safe for multithreaded access.	__label__MiscellaneousDirective
- Typically, an exception will be thrown (such as {@link IllegalMonitorStateException}) and the implementation must document that fact.	__label__MiscellaneousDirective
- For indeterminate progress, we don't have to know the total amount of work in advance and no worked method needs to be called.	__label__MiscellaneousDirective
- Each class that implements PrivilegedAction should document what (if anything) this value represents.	__label__MiscellaneousDirective
- Each subclass should state the precise behavior of this method so that users and developers know what to expect.	__label__MiscellaneousDirective
+ @param set the set to decorate, must not be null	__label__NotNullDirective
+ @param map the map to decorate, must not be null	__label__NotNullDirective
+ @param activeChecker The callback mechanism for checking whether a command is active; must not be null	__label__NotNullDirective
+ @param bag the bag to decorate, must not be nul	__label__NotNullDirective
+ @param factory the factory to use for creation, must not be null	__label__NotNullDirective
+ @throws IllegalArgumentException if map or factory is null	__label__NotNullDirective
+ @throws IllegalArgumentException if set is null	__label__NotNullDirective
+ @param list the list to decorate, must not be null	__label__NotNullDirective
+ @throws IllegalArgumentException if the collection is null	__label__NotNullDirective
+ @throws IllegalArgumentException if map is null	__label__NotNullDirective
+ @param map the map to decorate, must not be null	__label__NotNullDirective
+ @param map the map to decorate, must not be null	__label__NotNullDirective
+ @param transformer the transformer to use for conversion, must not be null	__label__NotNullDirective
+ @param predicate the predicate to use as a filter, not null	__label__NotNullDirective
+ @param listIterator the list iterator to use, not null	__label__NotNullDirective
+ @throws NullPointerException if the list is null	__label__NotNullDirective
+ @param predicates a collection of predicates to check, may not be null	__label__NotNullDirective
+ @throws IllegalArgumentException if the predicates collection is null	__label__NotNullDirective
+ @throws IllegalArgumentException if the predicates array is nul	__label__NotNullDirective
+ @throws NullPointerException if the map is null	__label__NotNullDirective
+ @param transformer the transformer to use for conversion, must not be null	__label__NotNullDirective
+ @param predicate the predicate to use for validation, must not be null	__label__NotNullDirective
+ @param set the set to decorate, must not be null	__label__NotNullDirective
+ @param elements the array of elements to add, must not be null	__label__NotNullDirective
+ @param map the map to decorate, must not be null	__label__NotNullDirective
+ @param map the map to decorate, must not be null	__label__NotNullDirective
+ @param transformer the transformer to use for conversion, must not be null	__label__NotNullDirective
+ @param buffer the buffer to predicate, must not be null	__label__NotNullDirective
+ @param a the first collection, must not be null	__label__NotNullDirective
+ @param b the second collection, must not be null	__label__NotNullDirective
+ @param b the collection to subtract, must not be null	__label__NotNullDirective
+ @param predicate the predicate for the collection, must not be null	__label__NotNullDirective
+ @param closure the closure to call repeatedly, not null	__label__NotNullDirective
+ @throws NullPointerException if either parameter is null	__label__NotNullDirective
+ @throws NullPointerException the specified map is null,	__label__NotNullDirective
+ @throws IllegalArgumentException if collection is null	__label__NotNullDirective
+ @param list the list to synchronize, must not be nul	__label__NotNullDirective
+ @throws IllegalArgumentException if the set is null	__label__NotNullDirective
+ @param bag the bag to predicate, must not be null	__label__NotNullDirective
+ @param set the set to transform, must not be null	__label__NotNullDirective
+ @param entry the entry to query, must not be null	__label__NotNullDirective
+ @param factory the factory for creating new objects, must not be null	__label__NotNullDirective
+ @param buffer the buffer to decorate, must not be null	__label__NotNullDirective
+ @param map the map to decorate, must not be null	__label__NotNullDirective
+ @param predicates array of predicates, not cloned, no nulls	__label__NotNullDirective
+ @param transformers matching array of transformers, cloned, no nulls	__label__NotNullDirective
+ @param closures the closures to chain, copied, no nulls	__label__NotNullDirective
+ @throws NullPointerException if array is null	__label__NotNullDirective
+ @throws IllegalArgumentException if the Buffer or Predicate is null	__label__NotNullDirective
+ @throws IllegalArgumentException if the closure is null	__label__NotNullDirective
+ @throws IllegalArgumentException if the factory is null	__label__NotNullDirective
+ @throws IllegalArgumentException if the classToInstantiate is null	__label__NotNullDirective
+ @param defaultLookup the default look-up. Must not be null.	__label__NotNullDirective
+ @param out the stream to print to, must not be null	__label__NotNullDirective
+ @param text the text to be displayed, must not be null	__label__NotNullDirective
+ @param action the action. Must not be null.	__label__NotNullDirective
+ @return The object representing an input event that will trigger this binding; must not be null.	__label__NotNullDirective
+ @param keyStroke a single key stroke. Must not be null.	__label__NotNullDirective
+ Cannot be null.	__label__NotNullDirective
+ @throws NullPointerException if the specified element is null	__label__NotNullDirective
+ @param exception The NotEnabledException, never null.	__label__NotNullDirective
+ @param labelProvider the label provider, or null if none	__label__NullSemanticsDirective
+ @return a MemoryNotificationInfo object represented by cd if cd is not null; null otherwise.	__label__NullSemanticsDirective
+ @param label The label to be used, may be null. If null, the label is not output.	__label__NullSemanticsDirective
+ param map The map to print, may be null. If null, the text 'null' is output.	__label__NullSemanticsDirective
+ Specify null to return all CRLs (if supported).	__label__NullSemanticsDirective
+ @param outputCollection the collection to output into, may not be null	__label__NullSemanticsDirective
+ Neither map is validated, so nulls may be passed in.	__label__NullSemanticsDirective
+ @param keyPredicate the predicate to validate the keys, null means no check	__label__NullSemanticsDirective
+ @param suffix The suffix string to be used in generating the file's name; may be null, in which case the suffix ".tmp" will be used	__label__NullSemanticsDirective
+ @param q the queue with which the reference is to be registered, or null if registration is not required	__label__NullSemanticsDirective
+ @param maximumSize the maximum size, must be size one or greater	__label__NumberRangeDirective
+ The port must be between 0 and 65535, inclusive.	__label__NumberRangeDirective
+ The local port must be between 0 and 65535 inclusive.	__label__NumberRangeDirective
+ The backlog argument must be a positive value greater than 0.	__label__NumberRangeDirective
+ The mode argument must be either OPEN_READ or OPEN_READ | OPEN_DELETE.	__label__NumberRangeDirective
+ @throws IllegalArgumentException if the maximum size is zero or less	__label__NumberRangeDirective
+ At a minimum, the unpacker must set progress to 0 at the beginning of a packing operation, and to 100 at the end.	__label__NumberRangeDirective
+ The initial index of the range (from) must lie between zero and original.length, inclusive.	__label__NumberRangeDirective
+ @param keyType the type of reference to use for keys; must be {@link #HARD}, {@link #SOFT}, {@link #WEAK}	__label__NumberRangeDirective
+ @param keyType the type of reference to use for keys; must be {@link #HARD}, {@link #SOFT}, {@link #WEAK}	__label__NumberRangeDirective
+ @param valueType the type of reference to use for values; must be {@link #HARD}, {@link #SOFT}, {@link #WEAK}	__label__NumberRangeDirective
+ This value is always in the range 0 through count. If it is less than count, then buf[pos] is the next byte to be supplied as input; if it is equal to count, then the next read or skip operation will require more bytes to be read from the contained input stream.	__label__NumberRangeDirective
+ @param tabWidth the tabulator width in space equivalents, must be >=0	__label__NumberRangeDirective
+ @param dialogImageType one of the following values:      MessageDialog.NONE for a dialog with no image     MessageDialog.ERROR for a dialog with an error image     MessageDialog.INFORMATION for a dialog with an information image     MessageDialog.QUESTION for a dialog with a question image     MessageDialog.WARNING for a dialog with a warning image	__label__NumberRangeDirective
+ @param nanos 0-999999 additional nanoseconds to wait. @exception IllegalArgumentException if the value of millis is negative the value of nanos is not in the range 0-999999.	__label__NumberRangeDirective
+ @throws IllegalArgumentException If the given string violates RFC 2396	__label__StringFormatDirective
+ The algorithm name must be specified, as there is no default.	__label__StringFormatDirective
+ This byte array should contain the DER encoded name, as it would appear in the GeneralName structure defined in RFC 2459 and X.509. The encoded byte array should only contain the encoded value of the name, and should not include the tag associated with the name in the GeneralName structure. The ASN.1 definition of this structure appears below.	__label__StringFormatDirective
+ The family should have a default resource bundle which simply has the same name as its family - "MyResources" - and will be used as the bundle of last resort if a specific locale is not supported.	__label__StringFormatDirective
+ The range may no only contain complete partitions but starts at the beginning of a line in the middle of a partition of the given content type. This requires that a partition delimiter can not contain a line delimiter.	__label__StringFormatDirective
+ @param nameConstraints a byte array containing the ASN.1 DER encoding of a NameConstraints extension to be used for checking name constraints. Only the value of the extension is included, not the OID or criticality flag.	__label__StringFormatDirective
+ The group class specified by the ActivationGroupDesc must be a concrete subclass of ActivationGroup and have a public constructor that takes two arguments: the ActivationGroupID for the group and the MarshalledObject containing the group's initialization data (obtained from the ActivationGroupDesc	__label__MethodParameterTypeDirective
+ created SequenceInputStream by remembering the argument, which must be an Enumeration that produces objects whose run-time type is InputStream	__label__MethodParameterTypeDirective
+ Furthermore, all elements in this range must be mutually comparable (that is, e1.compareTo(e2) must not throw a ClassCastException for any elements e1 and e2 in the array).	__label__MethodParameterTypeDirective
+ All elements in the range must be mutually comparable by the specified comparator (that is, c.compare(e1, e2) must not throw a ClassCastException for any elements e1 and e2 in the range).	__label__MethodParameterTypeDirective
+ Furthermore, all such keys must be mutually comparable: k1.compareTo(k2) (or comparator.compare(k1, k2)) must not throw a ClassCastException for any keys k1 and k2 in the sorted map.	__label__MethodParameterTypeDirective
+ @param className the class name of the preference page; this class must implement IPreferencePage	__label__MethodParameterTypeDirective
+ @param strategy The master formatting strategy, must implement {@link IFormattingStrategyExtension}	__label__MethodParameterTypeDirective
+ All of the elements in an enum set must come from a single enum type that is specified, explicitly or implicitly, when the set is created.	__label__MethodParameterTypeDirective
+ Copies all of the keys and values from the specified map to this map. Each key must be non-null and a MultiKey object.	__label__MethodParameterTypeDirective
+ All keys inserted into the map must implement the {@link Comparable} interface.	__label__MethodParameterTypeDirective
+ The property must implement java.util#Map.	__label__MethodParameterTypeDirective
+ The property must implement org.eclipse.jface.text#IDocument.	__label__MethodParameterTypeDirective
+ One version of the format method in the various Format classes requires a FieldPosition object as an argument.	__label__MethodParameterTypeDirective
+ The second parameter must be of type Object; therefore, the java.lang equivalent objects should be used for built-in types.	__label__MethodParameterTypeDirective
+ The length must be lesser or equal to the offset plus the length of the packet's buffer.	__label__MethodParameterCorrelationDirective
+ The source and destination must have the same number of bands.	__label__MethodParameterCorrelationDirective
+ The length argument must be less than or equal to buf.length.	__label__MethodParameterCorrelationDirective
+ @param deletePos the position in the text where the character was removed. Must not be less than the start of newParagraph, and must not be greater than the end of newParagraph.	__label__MethodParameterCorrelationDirective
+ The length argument must be less than or equal to buf.length.	__label__MethodParameterCorrelationDirective
+ The final index of the range (to), which must be greater than or equal to from, may be greater than original.length, in which case 0L is placed in all elements of the copy whose index is greater than or equal to original.length - from.	__label__MethodParameterCorrelationDirective
+ The final index of the range (to), which must be greater than or equal to from, may be greater than original.length, in which case '\\u000' is placed in all elements of the copy whose index is greater than or equal to original.length - from.	__label__MethodParameterCorrelationDirective
+ The initial index of the range (from) must lie between zero and original.length, inclusive.	__label__MethodParameterCorrelationDirective
+ The final index of the range (to), which must be greater than or equal to from, may be greater than original.length, in which case (byte)0 is placed in all elements of the copy whose index is greater than or equal to original.length - from.	__label__MethodParameterCorrelationDirective
+ @param b The bytes that make up the class data. The bytes from positions b.position() through b.position() + b.limit() -1 should have the format of a valid class file as defined by the Java Virtual Machine Specification.	__label__MethodParameterCorrelationDirective
+ The final index of the range (to), which must be greater than or equal to from, may be greater than original.length, in which case 0d is placed in all elements of the copy whose index is greater than or equal to original.length - from.	__label__MethodParameterCorrelationDirective
+ The two maps must be a matching pair, normal and reverse.	__label__MethodParameterCorrelationDirective
+ The method readObject is used to read an object from the stream. Java's safe casting should be used to get the desired type.	__label__Post-CallDirective
+ callers can only use the viewer row locally and until the next call to this method.	__label__Post-CallDirective
+ The keys should be immutable If they are not then they must not be changed after adding to the MultiKey.	__label__Post-CallDirective
+ If uppercase letters are desired, the {@link java.lang.String#toUpperCase()} method may be called on the result:       Integer.toHexString(n).toUpperCase()	__label__Post-CallDirective
+ @return The scheme identifier; never null.	__label__ReturnValueDirective
+ The returned control's layout data must be an instance of GridData.	__label__ReturnValueDirective
+ The computed result must be within 1 ulp of the exact result. Results must be semi-monotonic.	__label__ReturnValueDirective
+ Any subclass returning a Composite object whose Layout has default margins (for example, a GridLayout) are expected to set the margins of this Layout to 0 pixels.	__label__ReturnValueDirective
+ @return a new synchronized Bag	__label__ReturnValueDirective
+ @return a new transformed Bag	__label__ReturnValueDirective
+ This method should return the object to be substituted or the original object.	__label__ReturnValueDirective
+ Note that there must be at least one nonzero digit in a subnormal significand.	__label__ReturnValueDirective
+ A certificate factory for X.509 must return certificates that are an instance of java.security.cert.X509Certificate, and CRLs that are an instance of java.security.cert.X509CRL.	__label__ReturnValueDirective
+ @return the predicate as the only element in an array	__label__ReturnValueDirective
+ In dialogs implemented by JFace, this will be an IDialogPage.	__label__ReturnValueDirective
+ The array returned must contain at least a Locale instance equal to {@link java.util.Locale#US Locale.US}.	__label__ReturnValueDirective
+ If the given locale is equal to Locale.ROOT (the root locale), a List containing only the root Locale must be returned.	__label__ReturnValueDirective
+ Subsets of any { NavigableSet} must implement the { NavigableSet} interface.	__label__ReturnValueDirective
+ This set should not support the add or remove methods, and its iterator should not support the remove method.	__label__ReturnValueDirective
+ In other words, this method must allocate a new array	__label__ReturnValueDirective
+ @return never @throws FunctorException always	__label__ReturnValueDirective
+ This is not intended to be called outside of the workbench.	__label__MethodCallVisibilityDirective
+ Note: Using the Activatable constructors that both register and export an activatable remote object is strongly discouraged because the actions of registering and exporting the remote object are not guaranteed to be atomic.	__label__MethodCallVisibilityDirective
+ Denigrated, use {@linkplain #setSubject(X500Principal)} or {@linkplain #setSubject(byte[])} instead. This method should not be relied on as it can fail to match some certificates because of a loss of encoding information in the RFC 2253 String form of some distinguished names.	__label__MethodCallVisibilityDirective
+ Denigrated, use {@linkplain #addIssuer(X500Principal)} or {@linkplain #addIssuerName(byte[])} instead. This method should not be relied on as it can fail to match some CRLs because of a loss of encoding information in the RFC 2253 String form of some distinguished names.	__label__MethodCallVisibilityDirective
+ Constructor only used in deserialization, do not use otherwise.	__label__MethodCallVisibilityDirective
+ This method is deprecated and should not be used because SQL TIME values do not have a year component.	__label__MethodCallVisibilityDirective
+ This method is internal to the framework; subclassers should not call this method.	__label__MethodCallVisibilityDirective
+ @noreference This method is not intended to be referenced by clients.	__label__MethodCallVisibilityDirective
+ @noreference This method is not intended to be referenced by clients.	__label__MethodCallVisibilityDirective
+ As of 3.4, you should only call this method if you want to override the {@link JFacePreferences#CONTENT_ASSIST_BACKGROUND_COLOR}.	__label__MethodCallVisibilityDirective
+ Since changing the default locale may affect many different areas of functionality, this method should only be used if the caller is prepared to reinitialize locale-sensitive code running within the same Java Virtual Machine.	__label__MethodCallVisibilityDirective
+ Note: This is an internal framework method and must not be called by clients.	__label__MethodCallVisibilityDirective
+ Note: This method is not intended to be referenced or overridden by clients.	__label__MethodCallVisibilityDirective
+ Therefore, it would be wrong to write a program that depended on this exception for its correctness: the fail-fast behavior of iterators should be used only to detect bugs.	__label__MethodCallVisibilityDirective
+ Therefore, it would be wrong to write a program that depended on this exception for its correctness: the fail-fast behavior of iterators should be used only to detect bugs.	__label__MethodCallVisibilityDirective
+ @deprecated no replacement. Skeletons are no longer required for remote method calls in the Java 2 platform v1.2 and greater.	__label__MethodCallVisibilityDirective
+ @deprecated no replacement. Skeletons are no longer required for remote method calls in the Java 2 platform v1.2 and greater.	__label__MethodCallVisibilityDirective
+ This class may be instantiated;	__label__MethodCallVisibilityDirective
+ Clients may instantiate this class	__label__MethodCallVisibilityDirective
+ This method may be called from subclasses to enable or disable owner draw dynamically.	__label__MethodCallVisibilityDirective
+ @exception SQLFeatureNotSupportedException if the JDBC driver does not support this method	__label__ExceptionRaisingDirective
+ @throws IOException if an I/O error occurs or this stream is already closed	__label__ExceptionRaisingDirective
+ @exception SQLException if a database access error occurs or this method is called on a closed Statement	__label__ExceptionRaisingDirective
+ The view's iterator is a "weakly consistent" iterator that will never throw {@link ConcurrentModificationException}, and guarantees to traverse elements as they existed upon construction of the iterator, and may (but is not guaranteed to) reflect any modifications subsequent to construction.	__label__ExceptionRaisingDirective
+ @exception SecurityException If a security manager, s, is present and any of the following conditions is met	__label__ExceptionRaisingDirective
+ @throws IllegalMonitorStateException if this lock is not held @throws IllegalArgumentException if the given condition is not associated with this lock @throws NullPointerException if the condition is null	__label__ExceptionRaisingDirective
+ @throws IOException If an I/O error occurs, which is possible because the construction of the canonical pathname may require filesystem queries @throws SecurityException If a required system property value cannot be accessed, or if a security manager exists and its {@link java.lang.SecurityManager#checkRead} method denies read access to the file	__label__ExceptionRaisingDirective
+ @exception NullPointerException If b is null. @exception IndexOutOfBoundsException If off is negative, len is negative, or len is greater than b.length - off	__label__ExceptionRaisingDirective
+ @exception IOException If an I/O error occurs	__label__ExceptionRaisingDirective
+ @exception IOException if an I/O error occurs.	__label__ExceptionRaisingDirective
+ @exception SQLException if the parameterIndex is not valid; if a database access error occurs or this method is called on a closed CallableStatement	__label__ExceptionRaisingDirective
+ @exception IllegalArgumentException - if the index is not between 0 and the number of elements in the list minus 1 (inclusive)	__label__ExceptionRaisingDirective
+ @throws IllegalStateException implementations may, but are not required to, throw this exception if the entry has been removed from the backing map.	__label__ExceptionRaisingDirective
+ all such elements must be mutually comparable: { e1.compareTo(e2)} must not throw a { ClassCastException} for any elements { e1} and { e2} in the set	__label__ExceptionRaisingDirective
+ This implies that compare(x, y) must throw an exception if and only if compare(y, x) throws an exception.	__label__ExceptionRaisingDirective
+ @throws CertPathValidatorException if this PKIXCertPathChecker is unable to check certificates in the specified order; it should never be thrown if the forward flag is false since reverse checking must be supported	__label__ExceptionRaisingDirective
+ that is, e1.compareTo(e2) must not throw a ClassCastException for any elements e1 and e2 in the list	__label__ExceptionRaisingDirective
+ @exception InvalidKeyException if the public key in the certificate is not encoded properly or does not include required parameter information or cannot be used for digital signature purposes.	__label__ExceptionRaisingDirective
+ @exception IllegalArgumentException if the specified object is not an instance of the class or interface declaring the underlying field (or a subclass or implementor thereof)	__label__ExceptionRaisingDirective
+ @exception SQLException if parameterName does not correspond to a named parameter; if a database access error occurs or this method is called on a closed CallableStatement @exception SQLFeatureNotSupportedException if the JDBC driver does not support this method	__label__ExceptionRaisingDirective
+ @exception SQLException if the columnLabel is not valid; if a database access error occurs; the result set concurrency is CONCUR_READ_ONLY or this method is called on a closed result set @exception SQLFeatureNotSupportedException if the JDBC driver does not support this method	__label__ExceptionRaisingDirective
+ The input object should be immutable to maintain the contract of Transformer (although this is not checked).	__label__MiscellaneousMethodCallDirective
+ The Transformer must return either Boolean.TRUE or Boolean.FALSE otherwise a PredicateException will be thrown.	__label__MiscellaneousMethodCallDirective
+ The range must be sorted (as by the {@link #sort(char[], int, int)} method) prior to making this call.	__label__MiscellaneousMethodCallDirective
+ The specified list must be modifiable, but need not be resizable.	__label__MiscellaneousMethodCallDirective
+ @param tableNamePattern a table name pattern; must match the table name as it is stored in the database @return ResultSet - each row is a table privilege description	__label__MiscellaneousMethodCallDirective
+ The XML document must have the following DOCTYPE declaration:	__label__MiscellaneousMethodCallDirective
+ The method must return either a boolean or a non-null Boolean, and have no parameters.	__label__MiscellaneousMethodCallDirective
+ The agent should take care to ensure that the JAR does not contain any classes or resources other than those to be defined by the bootstrap class loader for the purpose of instrumentation. Failure to observe this warning could result in unexpected behaviour that is difficult to diagnose.	__label__MiscellaneousMethodCallDirective
+ @param schemaPattern a schema name pattern; must match the schema name as it is stored in the database; "" retrieves those without a schema; null means that the schema name should not be used to narrow the search	__label__MiscellaneousMethodCallDirective
+ Otherwise, the specified collection must contain at least one element (in order to determine the new enum set's element type)	__label__MiscellaneousMethodCallDirective
+ @param schemaPattern a schema pattern name; must match the schema name as it is stored in the database; "" retrieves those without a schema; null means that the schema name should not be used to narrow the search	__label__MiscellaneousMethodCallDirective
+ @param catalog a catalog name; must match the catalog name as it is stored in the database; "" retrieves those without a catalog; null means that the catalog name should not be used to narrow the search	__label__MiscellaneousMethodCallDirective
+ @param functionNamePattern a procedure name pattern; must match the function name as it is stored in the database	__label__MiscellaneousMethodCallDirective
+ @param table a table name; must match the table name as it is stored in this database	__label__MiscellaneousMethodCallDirective
+ The certificates supplied must be of a type supported by the CertificateFactory	__label__MiscellaneousMethodCallDirective
+ In the even of an error, a default image is returned if returnMissingImageOnError is true, otherwise null is returned.	__label__MiscellaneousMethodCallDirective
+ @param timeout This parameter is ignored as the method never blocks	__label__MiscellaneousMethodCallDirective
+ @param unit This parameter is ignored as the method never blocks	__label__MiscellaneousMethodCallDirective
+ The constructors of this class assume that the default character encoding and the default byte-buffer size are appropriate.	__label__MiscellaneousMethodCallDirective
+ Clients are not permitted to extend this class.	__label__ExtensibleClassIdentificationDirective
+ @noextend This class is not intended to be subclassed by clients.	__label__ExtensibleClassIdentificationDirective
+ @noextend This class is not intended to be subclassed by clients.	__label__ExtensibleClassIdentificationDirective
+ @noextend This class is not intended to be subclassed by clients.	__label__ExtensibleClassIdentificationDirective
+ @noextend This class is not intended to be subclassed by clients.	__label__ExtensibleClassIdentificationDirective
+ @noextend This class is not intended to be subclassed by clients.	__label__ExtensibleClassIdentificationDirective
+ @noextend This class is not intended to be subclassed by clients.	__label__ExtensibleClassIdentificationDirective
+ @noextend This class is not intended to be subclassed by clients.	__label__ExtensibleClassIdentificationDirective
+ @noimplement This interface is not intended to be implemented by clients.	__label__ExtensibleClassIdentificationDirective
+ @noimplement This interface is not intended to be implemented by clients	__label__ExtensibleClassIdentificationDirective
+ Clients may extend this class	__label__ExtensibleClassIdentificationDirective
+ Clients may extend this class.	__label__ExtensibleClassIdentificationDirective
+ Clients should subclass this class instead of implementing IConcurrentModel directly.	__label__ExtensibleClassIdentificationDirective
+ Clients may subclass.	__label__ExtensibleClassIdentificationDirective
+ It is recommended to subclass this class instead of Dialog in all cases except where the dialog should never show a tray.	__label__ExtensibleClassIdentificationDirective
+ This dialog class may be subclassed.	__label__ExtensibleClassIdentificationDirective
+ This concrete dialog class can be further subclassed as required.	__label__ExtensibleClassIdentificationDirective
+ This class may be  subclassed as required.	__label__ExtensibleClassIdentificationDirective
+ This class may be subclassed as required	__label__ExtensibleClassIdentificationDirective
+ This class and all of its methods may be overridden or extended.	__label__ExtensibleClassIdentificationDirective
+ Clients may implement this interface.	__label__ExtensibleClassIdentificationDirective
+ Clients may implement this interface.	__label__ExtensibleClassIdentificationDirective
+ This interface must be implemented by clients. Implementers should be registered with a content formatter in order get involved in the formatting process.	__label__ExtensibleClassIdentificationDirective
+ Clients may implement this interface.	__label__ExtensibleClassIdentificationDirective
+ This interface may be implemented by clients.	__label__ExtensibleClassIdentificationDirective
+ This interface may be implemented by clients.	__label__ExtensibleClassIdentificationDirective
+ Clients may implement this interface.	__label__ExtensibleClassIdentificationDirective
+ Clients may implement this interface.	__label__ExtensibleClassIdentificationDirective
+ This interface should be implemented by classes that wish to act as cell modifiers.	__label__ExtensibleClassIdentificationDirective
+ This interface should be implemented by classes that wish to act as cell editor validators.	__label__ExtensibleClassIdentificationDirective
+ Key-value entries are stored in instances of the ReferenceEntry class which can be overridden and replaced.	__label__ExtensibleClassIdentificationDirective
+ The subclass of ActivationGroup must override this method and unexport the object.	__label__MethodOverridingDirective
+ Subclasses may extend	__label__MethodOverridingDirective
+ Subclasses may extend this method.	__label__MethodOverridingDirective
+ Subclasses may extend.	__label__MethodOverridingDirective
+ Subclasses may extend	__label__MethodOverridingDirective
+ Subclasses may extend.	__label__MethodOverridingDirective
+ Subclasses may extend it	__label__MethodOverridingDirective
+ Subclasses should extend the doComputeSize framework method to compute the size of the page's control.	__label__MethodOverridingDirective
+ reimplement performCancel	__label__MethodOverridingDirective
+ Subclasses may reimplement or extend.	__label__MethodOverridingDirective
+ Subclasses can extend this method to add additional trim	__label__MethodOverridingDirective
+ Subclasses may reimplement.	__label__MethodOverridingDirective
+ Subclasses may reimplement.	__label__MethodOverridingDirective
+ Subclasses typically need not override this method, but may do so.	__label__MethodOverridingDirective
+ Subclasses should override this method.	__label__MethodOverridingDirective
+ This is a framework hook method for subclasses to return a page-specific preference store.	__label__MethodOverridingDirective
+ This is a framework hook method for subclasses to do special things when the Cancel button has been pressed.	__label__MethodOverridingDirective
+ Hook for subclasses which want to perform some action as soon as reconciliation is needed.	__label__MethodOverridingDirective
+ Subclasses should replace - the default implementation returns the empty string.	__label__MethodOverridingDirective
+ Subclasses of FilterOutputStream should provide a more efficient implementation of this method.	__label__MethodOverridingDirective
+ Subclasses may override these methods if required:	__label__MethodOverridingDirective
+ Subclasses may override this method to customize the cool bar manager.	__label__MethodOverridingDirective
+ This framework method must be implemented by concrete subclasses.	__label__MethodOverridingDirective
+ Subclasses that wish to support indirect CRLs should override this method.	__label__MethodOverridingDirective
+ Subclasses must implement the following methods:      * validateDrop - identifies valid drop targets in viewer     * performDrop - carries out a drop into a viewer	__label__MethodOverridingDirective
+ Subclasses should override to set their selection based on the given list of elements.	__label__MethodOverridingDirective
+ Subclasses should override.	__label__MethodOverridingDirective
+ Override this method to provide your own object used to handle progress.	__label__MethodOverridingDirective
+ Subclasses can override this to return alternate hash codes.	__label__MethodOverridingDirective
+ Subclasses could override to handle changes to the map.	__label__MethodOverridingDirective
+ This can be overridden by subclasses to provide a different map implementation.	__label__MethodOverridingDirective
+ This method exists for subclasses to override. A subclass may wish to provide cleanup of resources when an entry is removed.	__label__MethodOverridingDirective
+ May be overidden by handlers for other protocols that have different requirements for equals().	__label__MethodOverridingDirective
+ Subclasses are encouraged to provide a more efficient implementation of this method.	__label__MethodOverridingDirective
+ Subclasses typically do not override method.	__label__MethodOverridingDirective
+ Clients may call this framework method, but should not override it.	__label__MethodOverridingDirective
+ Clients should not override it.	__label__MethodOverridingDirective
+ This method is not intended to be overridden by subclasses.	__label__MethodOverridingDirective
+ This method is not intended to be referenced or overridden by clients.	__label__MethodOverridingDirective
+ Subclasses must call the super implementationcall	__label__MethodExtensionDirective
+ All pages should call super.doComputeSize.	__label__MethodExtensionDirective
+ Any subclass of RequiredModelMBean overloading or overriding this method should call super.postRegister(registrationDone)	__label__MethodExtensionDirective
+ super.setLabelProvider must be invoked.	__label__MethodExtensionDirective
+ If you override this method, then you should make a call to super.checkPrintJobAccess at the point the overridden method would normally throw an exception.	__label__MethodExtensionDirective
+ If you override this method, then you should make a call to super.checkExit at the point the overridden method would normally throw an exception. @param status the exit status.	__label__MethodExtensionDirective
+ A concrete subclass of this class must call this constructor when it is activated via the two parameter constructor described above.	__label__CallContractSubclassingDirective
+ Subclasses wishing a preference page without these buttons should call this framework method before the page's control has been created.	__label__CallContractSubclassingDirective
+ Subclasses should overwrite this method and use {@link #getIndentPrefixesForTab(int)} if applicable.	__label__CallContractSubclassingDirective
+ Subclasses may call the following methods to configure the wizard page:      * setDescription     * setErrorMessage     * setImageDescriptor     * setMessage     * setPageComplete     * setPreviousPage     * setTitle	__label__CallContractSubclassingDirective
+ It is recommended that this method be used by subclasses to determine whether the viewer is busy to return early from state-changing methods.	__label__CallContractSubclassingDirective
+ This method should normally be invoked within an {@link AccessController#doPrivileged} action to create callables that will, if possible, execute under the selected permission settings holding within that action; or if not possible, throw an associated {@link AccessControlException}.	__label__CallContractSubclassingDirective
+ The implementation of the method must follow this protocol: It must write each of the attributes of the SQL type to the given output stream. This is done by calling a method of the output stream to write each item, in the order that they appear in the SQL definition of the type. Specifically, it must call the appropriate SQLOutput writer method(s) (writeInt, writeString, and so on) to do the following: for a Distinct Type, write its single data element; for a Structured Type, write a value for each attribute of the SQL type.	__label__CallContractSubclassingDirective
+ This method must not modify the parent's layout.	__label__MethodImplementationDirective
+ In other words, this method must allocate a new array	__label__MethodImplementationDirective
+ They therefore must either be parsed as such or treated as an error.	__label__MethodImplementationDirective
+ The implementor must also ensure that the relation is transitive	__label__MethodImplementationDirective
+ Two hosts are considered equivalent if both host names can be resolved into the same IP addresses; else if either host name can't be resolved, the host names must be equal without regard to case; or both host names equal to null.	__label__MethodImplementationDirective
+ The implementation of the method must follow this protocol: It must write each of the attributes of the SQL type to the given output stream. This is done by calling a method of the output stream to write each item, in the order that they appear in the SQL definition of the type. Specifically, it must call the appropriate SQLOutput writer method(s) (writeInt, writeString, and so on) to do the following: for a Distinct Type, write its single data element; for a Structured Type, write a value for each attribute of the SQL type.	__label__MethodImplementationDirective
+ Calling disconnect() should not imply that this HttpURLConnection instance can be reused for other requests.	__label__MethodImplementationDirective
+ Drivers are not required to support these properties however if the driver supports a client info property that can be described by one of the standard properties, the standard property name should be used.	__label__MethodImplementationDirective
+ If the required access and argument checks succeed and the instantiation will proceed, the constructor's declaring class is initialized if it has not already been initialized.	__label__MethodImplementationDirective
+ Note that unlike the {@link StrictMath#copySign(float, float) StrictMath.copySign} method, this method does not require NaN sign arguments to be treated as positive values; implementations are permitted to treat some NaN arguments as positive and other NaN arguments as negative to allow greater performance.	__label__MethodImplementationDirective
+ Note that unlike the {@link StrictMath#copySign(double, double) StrictMath.copySign} method, this method does not require NaN sign arguments to be treated as positive values; implementations are permitted to treat some NaN arguments as positive and other NaN arguments as negative to allow greater performance.	__label__MethodImplementationDirective
+ Implementations may, but are not required to, throw this exception if { fromKey} or { toKey} cannot be compared to keys currently in the map.	__label__MethodImplementationDirective
+ The equals method implements an equivalence relation on non-null object references: * It is reflexive: for any non-null reference value x, x.equals(x) should return true. * It is symmetric: for any non-null reference values x and y, x.equals(y) should return true if and only if y.equals(x) returns true. * It is transitive: for any non-null reference values x, y, and z, if x.equals(y) returns true and y.equals(z) returns true, then x.equals(z) should return true. * It is consistent: for any non-null reference values x and y, multiple invocations of x.equals(y) consistently return true or consistently return false, provided no information used in equals comparisons on the objects is modified. * For any non-null reference value x, x.equals(null) should return false.	__label__MethodImplementationDirective
+ This method should query if the state of the object permits it to be acquired in the exclusive mode, and if so to acquire it.	__label__MethodImplementationDirective
+ It must also obey the interruption semantics as defined in this interface, to the extent that interruption of lock acquisition is supported: which is either totally, or only on method entry.	__label__MethodImplementationDirective
+ All { Lock} implementations must enforce the same memory synchronization semantics as provided by the built-in monitor lock, as described in The Java Language Specification, Third Edition (17.4 Memory Model)	__label__MethodImplementationDirective
+ Normally this means {@link #setQuickFixable(boolean)} has been called at least once but it can also be hard-coded, e.g. always return true.	__label__MethodImplementationDirective
+ The setter methods (setShort, setString, and so on) for setting IN parameter values must specify types that are compatible with the defined SQL type of the input parameter. For instance, if the IN parameter has SQL type INTEGER, then the method setInt should be used.	__label__Non-localConsistencySubclassingDirective
+ All CertPathValidator implementations must include a class (the SPI class) that extends this class (CertPathValidatorSpi)	__label__Non-localConsistencySubclassingDirective
+ The formats returned by the {@link Control#getFormats(String) getFormats} method and candidate locales returned by the {@link ResourceBundle.Control#getCandidateLocales(String, Locale) getCandidateLocales} method must be consistent in all ResourceBundle.getBundle invocations for the same base bundle.	__label__Non-localConsistencySubclassingDirective
+ Must have the same effect as getBindings(ScriptContext.ENGINE_SCOPE).get	__label__Non-localConsistencySubclassingDirective
+ The Bindings instances that are returned must be identical to those returned by the getBindings method of ScriptContext called with corresponding arguments on the default ScriptContext of the ScriptEngine.	__label__Non-localConsistencySubclassingDirective
+ If true is returned, the JDBC driver must support the returning of auto-generated keys for at least SQL INSERT statements	__label__Non-localConsistencySubclassingDirective
+ The equivalent of a default constructor called by any constructor and by readObject.	__label__Non-localConsistencySubclassingDirective
+ It is strongly recommended (though not required) that natural orderings be consistent with equals.	__label__Non-localConsistencySubclassingDirective
+ ColumnViewer implementors have to subclass this class and implement the missing methods	__label__MiscellaneousSubclassingDirective
+ Subclass implementations of this abstract class must provide a public constructor that takes a Policy.Parameters object as an input parameter.	__label__MiscellaneousSubclassingDirective
+ Bags or multisets (unordered collections that may contain duplicate elements) should implement this interface directly.	__label__MiscellaneousSubclassingDirective
+ Note: Support for the rowUpdated method is optional with a result set concurrency of CONCUR_READ_ONLY	__label__MiscellaneousSubclassingDirective
+ A remote object implementation must call Activatable's inactive method when that object deactivates (the object deems that it is no longer active)	__label__MethodCallSequenceDirective
+ Packages must be created before the class is defined	__label__MethodCallSequenceDirective
+ All of the columns in a result set must be given a value each time this method is called before calling insertRow.	__label__MethodCallSequenceDirective
+ you must call getMoreResults to move to any subsequent result(s).	__label__MethodCallSequenceDirective
+ Calls to setText(String text) and setImage(Image image) are required in order to fill the message area.	__label__MethodCallSequenceDirective
+ The caller must validate it using {@link #isSurrogatePair(char, char) isSurrogatePair} if necessary.	__label__MethodCallSequenceDirective
+ All OUT parameters must be registered before a stored procedure is executed.	__label__MethodCallSequenceDirective
+ The type of all OUT parameters must be registered prior to executing the stored procedure; their values are retrieved after execution via the get methods provided here.	__label__MethodCallSequenceDirective
+ All the data in the returned stream must be read prior to getting the value of any other column	__label__MethodCallSequenceDirective
+ The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).	__label__MethodCallSequenceDirective
+ To instantiate a PKIXParameters object, an application must specify one or more most-trusted CAs as defined by the PKIX certification path validation algorithm.	__label__MethodCallSequenceDirective
+ The "last used" Iterator is the Iterator upon which next() or hasNext() was most recently called used for the remove() operation only	__label__MethodCallSequenceDirective
+ This method may only be called once, otherwise an IllegalStateException will occur.	__label__MethodCallSequenceDirective
+ Use {@link #hasNext} to avoid this error.	__label__MethodCallSequenceDirective
+ Purges stale mappings from this map before read operations.	__label__MethodCallSequenceDirective
+ Using this constructor, the iterator is equivalent to an empty iterator until {@link #setArray} is called to establish the array to iterate over.	__label__MethodCallSequenceDirective
+ Events are not generated when preferences are modified in descendants of this node; a caller desiring such events must register with each descendant.	__label__MethodCallSequenceDirective
+ There must be an SWT Display created in the current thread before calling this method.	__label__MethodCallSequenceDirective
+ This method will be called before any other method and can be called multiple times.	__label__MethodCallSequenceDirective
+ lients should typically call this method once, create a color from the RGB provided, and dispose of the color when finished using it.	__label__MethodCallSequenceDirective
+ Clients who created this column are responsible to call this method once the column is no longer used.	__label__MethodCallSequenceDirective
+ Note: This method must be called at most once per reconcile step.	__label__MethodCallSequenceDirective
+ It is important not to use the original bag after invoking this method, as it is a backdoor for adding untransformed objects.	__label__MethodCallSequenceDirective
+ @param value if true, execute after shutdown, else don't. @see #getExecuteExistingDelayedTasksAfterShutdownPolicy	__label__MethodCallSequenceDirective
+ After the group is created, the ActivationSystem is informed that the group is active by calling the activeGroup method which returns the ActivationMonitor for the group.	__label__MethodCallSequenceDirective
+ Once the shutdown sequence has begun it can be stopped only by invoking the {@link #halt halt} method, which forcibly terminates the virtual machine.  Once the shutdown sequence has begun it is impossible to register a new shutdown hook or de-register a previously-registered hook. Attempting either of these operations will cause an {@link IllegalStateException} to be thrown.	__label__MethodCallSequenceDirective
+ This thread group must be empty, indicating that all threads that had been in this thread group have since stopped.	__label__NonCall-basedStateDirective
+ The current thread must own this object's monitor.	__label__NonCall-basedStateDirective
+ The caller principal must be an owner of the ACL in order to invoke this method.	__label__NonCall-basedStateDirective
+ @param caller the principal invoking this method. It must be an owner of this ACL.	__label__NonCall-basedStateDirective
+ This feature is only supported if the underlying collection's {@link Collection#iterator iterator} method returns an implementation that supports it.	__label__NonCall-basedStateDirective
+ This method should be used only when auto-commit mode has been disabled.	__label__NonCall-basedStateDirective
+ @return the dialog, after being closed by the user, which the client can only call getReturnCode() or getToggleState()	__label__NonCall-basedStateDirective
+ This value is computed once and then cached, so elements should not change their hash codes once created	__label__NonCall-basedStateDirective
+ The hashcode is calculated once here in this method. Therefore, changing the array passed in would not change the hashcode but would change the equals method, which is a bug.	__label__NonCall-basedStateDirective
+ This field should be true if this node did not exist in the backing store prior to the creation of this object.	__label__NonCall-basedStateDirective
+ @throws ArithmeticException if { roundingMode==UNNECESSARY} and the specified scaling operation would require rounding.	__label__NonCall-basedStateDirective
+ Replaces the given ranges in this presentation. Each range must be a subrange of the presentation's default range. The ranges must be ordered by increasing offset and must not overlap (but may be adjacent).	__label__NonCall-basedStateDirective
+ This method should only be called from the UI thread. If you are not on the UI thread then wrap the call with a PlatformUI.getWorkbench().getDisplay().synchExec() in order to guarantee the correct result.	__label__NonCall-basedStateDirective
+ Subclasses should either call the super implementation or, alternatively, {@link #initialize(ColumnViewer, ViewerColumn, boolean)}.	__label__AlternativeDirective
+ The new {@link #divide(BigDecimal, int, RoundingMode)} method should be used in preference to this legacy method.	__label__AlternativeDirective
+ It is recommended to subclass this class instead of Dialog in all cases except where the dialog should never show a tray.	__label__AlternativeDirective
+ Subclasses typically need not override this method, but instead should use the constructor parameters showDialogMenu and showPersistAction to indicate whether a menu should be shown, and createTitleControl to to customize the presentation of the title.	__label__AlternativeDirective
+ Instead, an application should register an activation descriptor and export a remote object separately, so that exceptions can be handled properly.	__label__AlternativeDirective
+ Standard customers should not overwrite this method but {@link #setValue(Object, Object)}	__label__AlternativeDirective
+ for distinguished names, use {@linkplain #addPathToName(int, byte[])} instead. This method should not be relied on as it can fail to match some certificates because of a loss of encoding information in the RFC 2253 String form of some distinguished names.	__label__AlternativeDirective
+ Viewers who are not subclasses of {@link ColumnViewer} should consider using a widget relative implementation like {@link ColumnViewer#getItemAt(org.eclipse.swt.graphics.Point)}.	__label__AlternativeDirective
+ In most cases, the Runnable interface should be used if you are only planning to override the run() method and no other Thread methods.	__label__AlternativeDirective
+ The {@link java.nio.charset.CharsetEncoder} class should be used when more control over the encoding process is required.	__label__AlternativeDirective
+ 	__label__AlternativeDirective
+ Completion proposals can implement {@link ICompletionProposalExtension6} to provide colored proposal labels.	__label__AlternativeDirective
+ A Map implementation that is a general purpose alternative to HashMap.  This implementation improves on the JDK1.4 HashMap by adding the {@link org.apache.commons.collections.MapIterator MapIterator} functionality and many methods for subclassing.	__label__AlternativeDirective
+ Note that IdentityMap is not synchronized and is not thread-safe. If you wish to use this map from multiple threads concurrently, you must use appropriate synchronization. The simplest approach is to wrap this map using {@link java.util.Collections#synchronizedMap(Map)}.	__label__AlternativeDirective
+ If you know that you have an object array, the {@link ObjectArrayListIterator} class is a better choice, as it will perform better.	__label__AlternativeDirective
+ This iterator is a special version designed for maps. It can be more efficient to use this rather than an entry set iterator where the option is available, and it is certainly more convenient.	__label__AlternativeDirective
+ A map iterator is an efficient way of iterating over maps. There is no need to access the entry set or use Map Entry objects.	__label__AlternativeDirective
+ Under many circumstances, linking Iterators together in this manner is more efficient (and convenient) than using nested for loops to extract a list.	__label__AlternativeDirective
+ Note that IdentityMap and ReferenceIdentityMap are unsuitable for use as the key comparison would work on the whole MultiKey, not the elements within.	__label__AlternativeDirective
+ . You can use {@link java.util.Collections#synchronizedMap} to provide synchronized access to a ReferenceIdentityMap.	__label__AlternativeDirective
+ Implementations typically return null if no values have been mapped to the key, however the implementation may choose to return an empty collection.	__label__AlternativeDirective
+ The following extension interfaces exist:      {@link org.eclipse.jface.text.ITextOperationTargetExtension} since version 2.0 introducing text operation enabling/disabling.	__label__AlternativeDirective
+ If the object has a custom mapping (is of a class implementing the interface SQLData), the JDBC driver should call the method SQLData.writeSQL to write it to the SQL data stream. If, on the other hand, the object is of a class implementing Ref, Blob, Clob, NClob, Struct, java.net.URL, or Array, the driver should pass it to the database as a value of the corresponding SQL type.	__label__AlternativeDirective
+ It is recommended to use getComparator() instead.	__label__AlternativeDirective
+ @deprecated This type of security checking is not recommended. It is recommended that the checkPermission call be used instead.	__label__AlternativeDirective
+ Overloadings of this method exist to initialize an enum set with one through five elements. A sixth overloading is provided that uses the varargs feature. This overloading may be used to create an enum set initially containing an arbitrary number of elements, but is likely to run slower than the overloadings that do not use varargs.	__label__AlternativeDirective
+ Consult your JDBC driver documentation to determine if it might be more efficient to use a version of updateAsciiStream which takes a length parameter.	__label__AlternativeDirective
+ Consult your JDBC driver documentation to determine if it might be more efficient to use a version of updateBlob which takes a length parameter.	__label__AlternativeDirective
+ Consult your JDBC driver documentation to determine if it might be more efficient to use a version of updateClob which takes a length parameter.	__label__AlternativeDirective
+ Note that there is another method for efficiently processing the simultaneous removal of multiple elements.	__label__AlternativeDirective
+ . Note that there is another method for efficiently processing the simultaneous removal of multiple elements.	__label__AlternativeDirective
+ Since 3.3, an alternative API is available, see {@link ViewerColumn#setEditingSupport(EditingSupport)} for a more flexible way of editing values in a column viewer.	__label__AlternativeDirective
+ Unicode-aware case-insensitive matching can be enabled by specifying the {@link #UNICODE_CASE} flag in conjunction with this flag.	__label__AlternativeDirective
+ The following extension interfaces exist:      {@link org.eclipse.jface.text.source.IAnnotationHoverExtension} since version 3.0 allowing a text hover to provide a creator for the hover control. This allows for sophisticated hovers in a way that information computed by the hover can be displayed in the best possible form.	__label__AlternativeDirective
+ It replaces {@link org.eclipse.jface.text.ITextViewer#setTextHover(ITextHover, String)} with a new method that allows to specify state masks for a better control of the hover behavior.	__label__AlternativeDirective
+ Since the order of format elements in a pattern string often changes during localization, it's generally better to use the {@link #getFormatsByArgumentIndex getFormatsByArgumentIndex} method, which assumes an order of formats corresponding to the order of elements in the arguments array passed to the format methods or the result array returned by the parse methods.	__label__AlternativeDirective
+ Note that this method does not clean up references between this cool bar manager and its associated contribution items. Use removeAll for that purpose.	__label__AlternativeDirective
+ If multiple threads access a linked hash set concurrently, and at least one of the threads modifies the set, it must be synchronized externally. This is typically accomplished by synchronizing on some object that naturally encapsulates the set. If no such object exists, the set should be "wrapped" using the {@link Collections#synchronizedSet Collections.synchronizedSet} method. This is best done at creation time, to prevent accidental unsynchronized access to the set:     Set s = Collections.synchronizedSet(new LinkedHashSet(...));	__label__AlternativeDirective
+ For efficiency, a character-stream object may use an object other than itself to protect critical sections.	__label__AlternativeDirective
+ implementations must synchronized on the hierarchy lock	__label__SynchronizationDirective
+ A subclass should therefore use the object in this field rather than this or a synchronized method.	__label__SynchronizationDirective
+ This implementation is not synchronized. You can use {@link java.util.Collections#synchronizedMap} to provide synchronized access to a ReferenceIdentityMap. Remember that synchronization will not stop the garbage collecter removing entries.	__label__SynchronizationDirective
+ If multiple threads access a format concurrently, it must be synchronized externally.	__label__SynchronizationDirective
+ It is imperative that the user manually synchronize on the returned collection when iterating over it:    Collection c = Collections.synchronizedCollection(myCollection);      ...   synchronized(c) {       Iterator i = c.iterator(); // Must be in the synchronized block       while (i.hasNext())          foo(i.next());   }	__label__SynchronizationDirective
+ It is imperative that the user manually synchronize on the returned map when iterating over any of its collection views:    Map m = Collections.synchronizedMap(new HashMap());       ...   Set s = m.keySet();  // Needn't be in synchronized block       ...   synchronized(m) {  // Synchronizing on m, not s!       Iterator i = s.iterator(); // Must be in synchronized block       while (i.hasNext())           foo(i.next());   }	__label__SynchronizationDirective
+ All public methods of CertStore objects must be thread-safe.	__label__SynchronizationDirective
+ Unless otherwise specified, the methods defined in this interface are not thread-safe. Multiple threads that need to access a single object concurrently should synchronize amongst themselves and provide the necessary locking. Multiple threads each manipulating separate objects need not synchronize.	__label__SynchronizationDirective
+ Note that TransformedMap is not synchronized and is not thread-safe. If you wish to use this map from multiple threads concurrently, you must use appropriate synchronization.	__label__SynchronizationDirective
+ If multiple threads access a hash map concurrently, and at least one of the threads modifies the map structurally, it must be synchronized externally.	__label__SynchronizationDirective
+ This operation is not atomic and may have undesired effects.	__label__SynchronizationDirective
+ In either case the implementation must ensure that the signal is redirected to another waiting thread, if there is one.	__label__SynchronizationDirective
+ When locking and unlocking occur in different scopes, care must be taken to ensure that all code that is executed while the lock is held is protected by try-finally or try-catch to ensure that the lock is released when necessary.	__label__SynchronizationDirective
+ Likewise any application that updates an IPreferenceStore from a Thread other than the UI Thread should be aware of any listeners that require an update in the UI Thread.	__label__SynchronizationDirective
+ Note that in context based mode the content formatter is fully reentrant, but not thread-safe.	__label__SynchronizationDirective
+ The ability to interrupt a lock acquisition in some implementations may not be possible, and if possible may be an expensive operation. The programmer should be aware that this may be the case.	__label__SynchronizationDirective
+ Additionally, it is possible for the size to change during execution of this method, in which case the returned result will be inaccurate.	__label__SynchronizationDirective
+ An application should catch instances of this class only if it must clean up after being terminated asynchronously.	__label__MiscellaneousDirective
+ Classes that need to designate a replacement when an instance of it is read from the stream should implement this special method with the exact signature.   ANY-ACCESS-MODIFIER Object readResolve() throws ObjectStreamException;	__label__MiscellaneousDirective
+ If auto-commit mode has been disabled, the method commit must be called explicitly in order to commit changes; otherwise, database changes will not be saved.	__label__MiscellaneousDirective
  No check is made that the object is immutable. In general, only immutable objects should use the constant factory.	__label__MiscellaneousDirective
- No check is made that the object is immutable. In general, only immutable objects should use the constant factory.	__label__MiscellaneousDirective
- An implementation should document when this is the case.	__label__MiscellaneousDirective
- Generally speaking, any class that implements the Comparable interface and violates this condition should clearly indicate this fact.	__label__MiscellaneousDirective
- The specification for the persistent collection should indicate that it is capable of throwing such exceptions.	__label__MiscellaneousDirective
- So the INFO level should only be used for reasonably significant messages that will make sense to end users and system admins.	__label__MiscellaneousDirective
- Both packing steps should use precisely the same options, and the segment limit may also need to be set to "-1", to prevent accidental variation of segment boundaries as class file sizes change slightly.	__label__MiscellaneousDirective
- The add methods are affected by this class. Thus objects must be removed or searched for using their transformed form. For example, if the transformation converts Strings to Integers, you must use the Integer form to remove objects.	__label__MiscellaneousDirective
- Note that the amount of memory required to hold an object of any given type may be implementation-dependent.	__label__MiscellaneousDirective
- Beware that, unlike in most collections, this method is NOT a constant-time operation. Because of the asynchronous nature of these maps, determining the current number of elements requires traversing them all to count them.	__label__MiscellaneousDirective
- This operation will probably require time linear in the map size for most implementations.	__label__MiscellaneousDirective
- Code generators are encouraged to use platform-specific native libraries or microprocessor instructions, where available, to provide higher-performance implementations of Math methods. Such higher-performance implementations still must conform to the specification for Math.	__label__MiscellaneousDirective
-poa object ha associated poamanager object	__label__nonDir
-second lowest justification priority	__label__nonDir
-orb responsible creating embodiment request delivering dynamic implementation routine dir	__label__nonDir
-related documentation overview tutorial example guide tool documentation please see use tree section java tutorial	__label__nonDir
-get descriptive name unit	__label__nonDir
-scheduledexecutorservice subinterface associated interface add support delayed periodic task execution	__label__nonDir
-information holder file see generated file holder file	__label__nonDir
-org/omg/iop/taggedcomponenthelper.java	__label__nonDir
-constant microsoft window context menu key	__label__nonDir
-superclass class describing stream decoded encoded	__label__nonDir
-contains class creating user interface painting graphic image	__label__nonDir
-method used alternative execute method application ha connection open resultset object	__label__nonDir
-return boolean true queue contains element	__label__nonDir
-package specification html reference specification html specification htmleditorkit based	__label__nonDir
-see specific documentation concrete handler class	__label__nonDir
-mediatype instance iso/din c1 x mm	__label__nonDir
-instance peer implementation use facility avoid making call user code system thread	__label__nonDir
-paint horizontal line	__label__nonDir
-update canvas	__label__nonDir
-fetch character attribute effect current location caret null	__label__nonDir
-package includes small standardized extensible framework well class provide useful functionality otherwise tedious difficult implement	__label__nonDir
-constant ugaritic unicode character block	__label__nonDir
-provides class necessary create applet class applet us communicate applet context	__label__nonDir
-compatibility decomposition followed canonical composition	__label__nonDir
-service-provider class java.nio.file package	__label__nonDir
-threadpolicy specifies threading model used created poa	__label__nonDir
-return value property specified key	__label__nonDir
-get current value	__label__nonDir
-localobject used base class locally constrained object portableserver module	__label__nonDir
-interceptor intended mean orb service gain access orb processing effectively becoming part orb	__label__nonDir
-check duration zero length	__label__nonDir
-attribute key paint used render background text	__label__nonDir
-short ip address subnet mask broadcast address address ipv4 one	__label__nonDir
-org/omg/corba/completionstatushelper.java generated idl-to-java compiler portable version june o'clock gmt+00:00	__label__nonDir
-contains minor code give detailed information caused exception completion status	__label__nonDir
-exception thrown invalid target object type specified	__label__nonDir
-server tell difference client invocation using client stub request using dii	__label__nonDir
+ In this case, the caller can still decide to show the window, but the window should include some sort of visual warning.	__label__MiscellaneousDirective
+ ArrayList is a good general purpose list implementation. It is faster than TreeList for most operations except inserting and removing in the middle of the list. ArrayList also uses less memory as TreeList uses one object per entry.	__label__MiscellaneousDirective
+ Note that in this case, traversal to find that element takes linear time.	__label__MiscellaneousDirective
+ Implementations should allow a value to be looked up from a key and a key to be looked up from a value with equal performance.	__label__MiscellaneousDirective
+ The add and set methods are affected by this class. Thus objects must be removed or searched for using their transformed form. For example, if the transformation converts Strings to Integers, you must use the Integer form to remove objects.	__label__MiscellaneousDirective
+ For example, some List implementations provide asymptotically linear access times if they get huge, but constant access times in practice. Such a List implementation should generally implement this interface.	__label__MiscellaneousDirective
+ As a rule, the equals method should be used by implementations of this class to decide if two keys are the same.	__label__MiscellaneousDirective
+ Beware that, unlike in most collections, the { size} method is NOT a constant-time operation. Because of the asynchronous nature of these queues, determining the current number of elements requires a traversal of the elements.	__label__MiscellaneousDirective
+ It is recommended that this platform MBeanServer also be used to register other application managed beans besides the platform MXBeans.	__label__MiscellaneousDirective
+ Disables randomization and enables additional runtime error checking. Severely degrades performance if set to true. Intended for use in test suites only.	__label__MiscellaneousDirective
+ Specifying this flag may impose a performance penalty.	__label__MiscellaneousDirective
+ Note: The object returned from this method may be an instance of an implementation-specific class. The RemoteObject class ensures serialization portability of its instances' remote references through the behavior of its custom writeObject and readObject methods. An instance of RemoteRef should not be serialized outside of its RemoteObject wrapper instance or the result may be unportable.	__label__MiscellaneousDirective
+constant locking kana function key	__label__nonDir
+set command name action event fired button	__label__nonDir
+populates table mapping uiclassid fully qualified name ui class	__label__nonDir
+indicates window currently opaque	__label__nonDir
+identifies telugu range decimal base	__label__nonDir
+return array containing element collection	__label__nonDir
 information helper file see generated file helper file	__label__nonDir
-qname represents qualified name defined xml specification xml schema part2 datatypes specification namespaces xml namespaces xml erratum	__label__nonDir
-calculates amount time two temporal object	__label__nonDir
-adapter activator supply poa ability create child poa demand side-effect receiving request name child poa one child find_poa called activate parameter value true	__label__nonDir
-return float array containing color component color default srgb color space	__label__nonDir
-nesting kind type element	__label__nonDir
-add given rowset object joinrowset object set designated column match column rowset object	__label__nonDir
-get style wrapping used text area wrapping line	__label__nonDir
-serf container data described idl idl primitive type	__label__nonDir
-signal error sort ha occurred reading writing jar file	__label__nonDir
-implement coptic calendar system	__label__nonDir
-object used request operation describe exception thrown method	__label__nonDir
-also contains three int member constant corresponding one completionstatus instance	__label__nonDir
-provides class rtfeditorkit creating rich-text-format text editor	__label__nonDir
-provides interface class dealing different type event fired awt component	__label__nonDir
-threadpolicy specifies threading model used created poa	__label__nonDir
-creates jcombobox contains element specified vector	__label__nonDir
-class serf parameter block instrumentation.redefineclasses method	__label__nonDir
-return listener update tree model change	__label__nonDir
-information helper file see generated file helper file	__label__nonDir
-using populate method matter convenience compared using version execute take resultset object	__label__nonDir
-set number row textarea	__label__nonDir
-horizontal horizontal line drawn dividing child root node	__label__nonDir
-constant key	__label__nonDir
-return array focus listener registered component	__label__nonDir
-method check whether length zero	__label__nonDir
-holder short	__label__nonDir
-mbean whose management interface determined reflection java interface emits notification	__label__nonDir
-atomically increment one current value field given object managed updater	__label__nonDir
-return action command included event sent action listener	__label__nonDir
-contains minor code give detailed information caused exception completion status	__label__nonDir
-thrown indicate problem parameter value passed orb.create_policy operation	__label__nonDir
-constant mathematical operator unicode character block	__label__nonDir
-remove named non-null style previously added document	__label__nonDir
-multiplexing ui used combine tabbedpaneuis	__label__nonDir
-creates trayicon specified image tooltip popup menu	__label__nonDir
-provides class interface relating font	__label__nonDir
-return view represents increase view	__label__nonDir
-width roundrectangle2d	__label__nonDir
-genericarraytype represents array type whose component type either parameterized type type variable	__label__nonDir
-extend class abstractownablesynchronizer simple class help record thread currently holding exclusive synchronization	__label__nonDir
-manifest signature specification manifest format specification	__label__nonDir
-represents union type	__label__nonDir
-double pixel solid low underline	__label__nonDir
-obtains clock always return instant	__label__nonDir
-return array constructor object reflecting constructor declared class represented class object	__label__nonDir
-constant transport map symbol unicode character block	__label__nonDir
-insert specified element end deque	__label__nonDir
-related documentation overview tutorial example guide tool documentation please see writing event listener section java tutorial	__label__nonDir
-return rectangle2d encloses bit drawn shapegraphicattribute relative rendering position	__label__nonDir
-fetch model associated editor	__label__nonDir
-provides method input output value type contains update org/omg/corba/portable package	__label__nonDir
-constructor concrete subclass us null default value	__label__nonDir
-visit unknown kind type	__label__nonDir
-image depicts check box group created example	__label__nonDir
-provides immutable object used socket binding connecting returned value	__label__nonDir
-urldatasource simplifies handling data described url within javabeans activation framework class used create new datahandlers	__label__nonDir
-visit int value annotation	__label__nonDir
-return copy duration specified duration subtracted	__label__nonDir
-insert component document replacement currently selected content	__label__nonDir
-extended interface transferqueue implementation linkedtransferqueue introduce synchronous transfer method along related feature producer may optionally block awaiting consumer	__label__nonDir
-get table-based rule collation object	__label__nonDir
-interface object contain set item zero selected	__label__nonDir
+creates tool tip	__label__nonDir
+mediatype instance iso/din c0 x mm	__label__nonDir
+actionlistener receive actionevent selection ha made	__label__nonDir
+file resource named meta-inf/mimetypes.default usually found activation.jar file	__label__nonDir
+helper octetseq	__label__nonDir
+executor class provides factory method common kind configuration executor well utility method using	__label__nonDir
+acquires read lock unless current thread interrupted	__label__nonDir
+update componentlistener necessary	__label__nonDir
+class represents builder creates default mbeanserver implementation	__label__nonDir
+iduniquenesspolicy specifies whether servant activated created poa must unique object identity	__label__nonDir
+perform loose tracking	__label__nonDir
+multiplexing ui used combine textuis	__label__nonDir
+represents runtime exception thrown agent performing operation mbeans	__label__nonDir
+writes data property metadata webrowset object given outputstream object xml format	__label__nonDir
+object containing modifiable list string object represent property name	__label__nonDir
+implement characteriterator.getendindex string	__label__nonDir
+return copy duration positive length	__label__nonDir
+creates image decodes image stored specified byte array specified offset length	__label__nonDir
+return class representing component type array	__label__nonDir
+replaces text indicated start end position new text specified	__label__nonDir
+return bufferstrategy used component	__label__nonDir
+return shape whose interior corresponds visual representation glyphvector rendered x	__label__nonDir
+visit int primitive type calling defaultaction	__label__nonDir
+object describing structure metadata document returned iiometadata.getastree passed iiometadata.setfromtree mergetree	__label__nonDir
+family ycbcr color space	__label__nonDir
 retrieves boolean indicating whether row marked deletion appear set current row	__label__nonDir
-get locale component	__label__nonDir
-creates cachedrowset object empty copy cachedrowset object	__label__nonDir
-return tooltip location component coordinate system	__label__nonDir
-return pattern string describing date format	__label__nonDir
-may also contain string describing exception	__label__nonDir
-useful client utility class	__label__nonDir
-creates new serializablepermission specified name	__label__nonDir
-holder wrongtransaction	__label__nonDir
-array string	__label__nonDir
-return position underline relative baseline	__label__nonDir
-outputstream provides interface writing mapped idl type stream	__label__nonDir
-description copied class abstractborder	__label__nonDir
-provides one interface many abstract class swing us provide pluggable look-and-feel capability	__label__nonDir
-construct paintevent object specified source component type	__label__nonDir
-method change layout-related information therefore invalidates component hierarchy	__label__nonDir
-first number range id used window event	__label__nonDir
-add awteventlistener receive awtevents dispatched system-wide conform given eventmask	__label__nonDir
-return array actionlisteners added jtextfield addactionlistener	__label__nonDir
-return whether window receive focus subsequently shown call setvisible true moved front call tofront	__label__nonDir
-abstract superclass parsing decoding image	__label__nonDir
-package contains three main group class interface class iteration text class formatting parsing class string collation	__label__nonDir
-orb responsible creating embodiment request delivering dynamic implementation routine dir	__label__nonDir
-clear selection	__label__nonDir
-thrown invalid mbean attribute passed query constructing method	__label__nonDir
-return array field object reflecting field declared class interface represented class object	__label__nonDir
-constant hiragana function key	__label__nonDir
-atomically decrement one current value field given object managed updater	__label__nonDir
-drag drop direct manipulation gesture found many graphical user interface system provides mechanism transfer information two entity logically associated presentation element gui	__label__nonDir
-replaces currently selected content new content represented given string	__label__nonDir
-provides principal class interface javatm print service api	__label__nonDir
-class defines service provider interface spi messagedigest class provides functionality message digest algorithm md5 sha	__label__nonDir
-constant half-width character function key	__label__nonDir
-utility assist processing program element type	__label__nonDir
-return justification information graphicattribute	__label__nonDir
-set horizontal alignment text	__label__nonDir
-java mapping idl enum tckind specifies kind typecode object	__label__nonDir
-get value specified field int	__label__nonDir
-accessibleobject allows suppression access check necessary reflectpermission available	__label__nonDir
-allows action invoked dynamic mbean	__label__nonDir
-description copied class number	__label__nonDir
-class defines service provider interface spi keyagreement class	__label__nonDir
+mouse released event	__label__nonDir
+calculates amount time two temporal object	__label__nonDir
+holder octetseq	__label__nonDir
 org/omg/corba/longlongseqhelper.java generated idl-to-java compiler portable version streams.idl may o'clock gmt+00:00 class definition ha modified conform following omg specification orb core defined corba formal/99-10-07 idl/java language mapping defined ptc/00-01-08	__label__nonDir
-retains element collection contained specified collection optional operation	__label__nonDir
-information helper file see generated file helper file	__label__nonDir
-node hierarchical collection preference data	__label__nonDir
-droptargetlistener interface callback interface used droptarget class provide notification dnd operation involve subject droptarget	__label__nonDir
-default editor border inset	__label__nonDir
-return collection containing thread may waiting acquire	__label__nonDir
-bound property name expands selected path property	__label__nonDir
-update linebreakmeasurer single character inserted text set current position beginning paragraph	__label__nonDir
-atomically decrement one current value	__label__nonDir
-provides class fundamental design java programming language	__label__nonDir
-class cornerstone orb dynamic invocation interface dii allows dynamic creation invocation request	__label__nonDir
-atomically increment one current value field given object managed updater	__label__nonDir
-poa object ha associated poamanager object	__label__nonDir
-interface provides dispatching mechanism incoming call	__label__nonDir
-return accelerator selected foreground color current theme	__label__nonDir
-helper visibility	__label__nonDir
+enumeration xml schema namespace qualification	__label__nonDir
+related documentation overview tutorial example guide tool documentation please see use table section java tutorial	__label__nonDir
+return float array containing color component color default srgb color space	__label__nonDir
+api includes feature ability specify document type mechanism control page setup page format ability manage job control dialog	__label__nonDir
+information holder file see generated file holder file	__label__nonDir
+permission represents trust signer codebase	__label__nonDir
+add rowset joinrowset object set designated column match column	__label__nonDir
+package contains exception specified iop codefactory interface part portable interceptor spec	__label__nonDir
+set property textfield match specified action	__label__nonDir
+subclass object may override definition	__label__nonDir
+org/omg/iop/servicecontext.java	__label__nonDir
+information holder file see generated file holder file	__label__nonDir
+paint event type	__label__nonDir
+factory object generates preference object	__label__nonDir
+however framework also support input method language use entirely different input mechanism handwriting speech recognition	__label__nonDir
+handler publishes log record system.err	__label__nonDir
+add actionlistener	__label__nonDir
+service provider class class java.util package	__label__nonDir
+creates return paintcontext used generate solid color field pattern	__label__nonDir
+class provides method from_int given one int constant creates corresponding definitionkind instance	__label__nonDir
+creates color specified colorspace color component specified float array specified alpha	__label__nonDir
+invalidates layout indicating layout manager ha cached information discarded	__label__nonDir
+add one rowset object contained given array rowset object joinrowset object set match column rowset object match column given array column name	__label__nonDir
+org/omg/corba/_idltypestub.java generated idl-to-java compiler portable version ir.idl	__label__nonDir
+awtkeystroke represents key action keyboard equivalent input device	__label__nonDir
+information lock	__label__nonDir
+set l f object render component	__label__nonDir
+interface used imagereader implementation notify caller image thumbnail reading method pixel update	__label__nonDir
+root class corba standard exception	__label__nonDir
+description copied class abstractborder	__label__nonDir
+constant katakana function key	__label__nonDir
+give native peer ability query native container given native component eg direct parent may lightweight	__label__nonDir
+service provider class class java.text package	__label__nonDir
+helper anyseq	__label__nonDir
+check whether component contains specified point x defined relative coordinate system component	__label__nonDir
+provides event fired swing component	__label__nonDir
+postscript information	__label__nonDir
+class extends filetypemap provides data typing file via file extension	__label__nonDir
+level class defines set standard logging level used control logging output	__label__nonDir
 package specification java object serialization specification related documentation overview tutorial example guide tool documentation please see serialization enhancement	__label__nonDir
-return number key-value mapping map	__label__nonDir
-notifies listener registered interest notification event type	__label__nonDir
-variable indentation used reinforce level grouping	__label__nonDir
-request interceptor designed intercept flow request/reply sequence orb specific point service query request information manipulate service context propagated client server	__label__nonDir
-return shape represents region graphicattribute render	__label__nonDir
-adjusts specified temporal object using logic encapsulated implementing class	__label__nonDir
-read len byte data input stream array byte	__label__nonDir
-syncresolver object list conflict row row set lock data source avoid conflict current conflict resolved	__label__nonDir
-description copied class container	__label__nonDir
-return current value reference stamp	__label__nonDir
-indicates glyph corresponding character backing store	__label__nonDir
-super class menu related container	__label__nonDir
-construct mouseevent object specified source component type time modifier coordinate absolute coordinate click count popuptrigger flag button number	__label__nonDir
-related documentation overview architecture tutorial documentation please see javabeans trail java tutorial	__label__nonDir
-construct glyphmetrics object	__label__nonDir
-true root node displayed false child highest visible node	__label__nonDir
-constant numeric keypad left arrow key	__label__nonDir
-package specification precise list supported section official specification java tm platform standard edition orb complies see official specification corba support java se	__label__nonDir
-constant katakana phonetic extension unicode character block	__label__nonDir
-return whether given modality type supported toolkit	__label__nonDir
-read webrowset object xml format given reader object	__label__nonDir
-small toolkit class support lock-free thread-safe programming single variable	__label__nonDir
-par text string produce date	__label__nonDir
-set root visible	__label__nonDir
-class defines service provider interface spi exemptionmechanism class	__label__nonDir
-permission securitymanager check code running securitymanager call one logging control method logger.setlevel	__label__nonDir
-creates new custom cursor object	__label__nonDir
-service provider interface spi imageinputstreams	__label__nonDir
-constant yi radical unicode character block	__label__nonDir
-constructor concrete subclass us argument default value	__label__nonDir
-return resultset object containing original value cachedrowset object	__label__nonDir
-return true mousex mousey fall area row used expand/collapse node node row doe represent leaf	__label__nonDir
-metadata including jdbc property synchronization spi property maintained future use	__label__nonDir
+interface diffie-hellman key	__label__nonDir
+return beginning date period year interpreted within	__label__nonDir
+mediatype instance iso/din c6 x mm	__label__nonDir
+invoked window de-iconified	__label__nonDir
+return array action listener registered button	__label__nonDir
+urldatasource simplifies handling data described url within javabeans activation framework class used create new datahandlers	__label__nonDir
+containing line com.mycompany.imageio.myformatreaderspi	__label__nonDir
+information holder file see generated file holder file	__label__nonDir
+contains user apis rmi-iiop	__label__nonDir
+constant f6 function key	__label__nonDir
+return identical value similar commandenvironments	__label__nonDir
+return table array byte specified tag	__label__nonDir
+signal icmp port unreachable message ha received connected datagram	__label__nonDir
+poa object manages implementation collection object	__label__nonDir
+transforms jar file packed stream pack200 format	__label__nonDir
+creates new jtextpane specified document model	__label__nonDir
 may also contain string describing exception	__label__nonDir
-example jar url refers jar entry	__label__nonDir
-set designated parameter reader object	__label__nonDir
-package containing public class used built-in bmp plug-in	__label__nonDir
-obtains clock return current instant using best available system clock converting date time using default time-zone	__label__nonDir
-protected field implementation specific	__label__nonDir
-return array awteventlisteners registered toolkit	__label__nonDir
+index term view	__label__nonDir
+return bound glyph	__label__nonDir
+constant	__label__nonDir
+constant kangxi radical unicode character block	__label__nonDir
+ease-of-use constant getalignmentx	__label__nonDir
+package provides number image producer consumer filter configure image processing need	__label__nonDir
+array provides static method dynamically create access array	__label__nonDir
+creates unselected toggle button specified text	__label__nonDir
+provides equivalent safe behavior immutable mutable implementation	__label__nonDir
+package contains utility class related kerberos network authentication protocol	__label__nonDir
+see package example java.security.permission detail	__label__nonDir
+return whether window receive focus subsequently shown call setvisible true moved front call tofront	__label__nonDir
+construct fontrendercontext object optional affinetransform two boolean value determine newly constructed object ha anti-aliasing fractional metric	__label__nonDir
+provides class interface accessing naming service	__label__nonDir
+return integer keycode associated key event	__label__nonDir
+return alignment along x axis	__label__nonDir
+indicates whether designated column current row cachedrowset object ha updated	__label__nonDir
+provides class interface key specification algorithm parameter specification	__label__nonDir
+package contains key specification dsa public private key rsa public private key pkcs private key der-encoded format x.509 public private key der-encoded format	__label__nonDir
+return shape represents region shapegraphicattribute render	__label__nonDir
+naming table	__label__nonDir
+algorithmparametergenerator class used generate set parameter used certain algorithm	__label__nonDir
+helper ulongseq	__label__nonDir
+please see use focus subsystem section java tutorial focus specification information	__label__nonDir
+set auto-size property	__label__nonDir
+supported operation include launching user-default browser show specified uri launching user-default mail client optional mailto uri launching registered application open edit print specified file	__label__nonDir
+condensed predefined width	__label__nonDir
+method graphics2d interface use outline shape returned stroke object include draw method implemented term method drawline drawrect drawroundrect drawoval drawarc drawpolyline drawpolygon	__label__nonDir
+fetch current paragraph attribute effect location caret null none	__label__nonDir
+constant microsoft window window key	__label__nonDir
+represents mbean server management point view	__label__nonDir
+description copied class number	__label__nonDir
+constant unified canadian aboriginal syllabics unicode character block	__label__nonDir
+org/omg/iop/codecpackage/typemismatch.java	__label__nonDir
+equivalent minutes.convert duration	__label__nonDir
+get visibility text field	__label__nonDir
+add specified key set view mapping key default mapped value backing map defined	__label__nonDir
+exception represents failure jaxb operation	__label__nonDir
+org/omg/cosnaming/namingcontextpackage/invalidnameholder.java	__label__nonDir
+constant tai viet unicode character block	__label__nonDir
+provides class interface dealing javax.swing.jtable	__label__nonDir
+xmladapter spec-defined sub-classes allow arbitrary java class used jaxb	__label__nonDir
+provides interface document object model dom	__label__nonDir
+creates trayicon specified image tooltip text	__label__nonDir
+return sytem text font current theme	__label__nonDir
+used minimizing drawing vertical line	__label__nonDir
+return array containing selected item	__label__nonDir
+optical bound	__label__nonDir
+glyph variation	__label__nonDir
+return new breakiterator instance line break given locale	__label__nonDir
+metal look feel implementation toolbarui	__label__nonDir
+domhandler implementation w3c dom org.w3c.dom package	__label__nonDir
+multiplexing ui used combine popupmenuuis	__label__nonDir
+construct windowevent object	__label__nonDir
+package java image i/o api dealing low-level i/o file stream	__label__nonDir
+provides method implementation access identity object method wa invoked	__label__nonDir
+field provided standard table taken annex k jpeg specification	__label__nonDir
+provides class htmleditorkit supporting class creating html text editor	__label__nonDir
+creates new color darker version color	__label__nonDir
+return maximum size separator	__label__nonDir
+return ascent graphicattribute	__label__nonDir
+base filename	__label__nonDir
+description copied class container	__label__nonDir
+creates listener responsible update ui based tree change	__label__nonDir
+return first longest-waiting thread queue null thread currently queued	__label__nonDir
+constant roman character function key	__label__nonDir
+description copied class number	__label__nonDir
+sole constructor	__label__nonDir
+portable interceptor current also known picurrent merely slot table slot used service transfer context data context request reply service context	__label__nonDir
+indicates whether fontrendercontext object measure text transformed render context	__label__nonDir
+method public implementation side effect	__label__nonDir
+check field represents component time	__label__nonDir
+tracking	__label__nonDir
+class parsing processing keyinfo element structure	__label__nonDir
+jseparator provides general purpose component implementing divider line commonly used divider menu item break logical grouping	__label__nonDir
+flip last card container	__label__nonDir
+construct empty deque	__label__nonDir
+small toolkit class support lock-free thread-safe programming single variable	__label__nonDir
+return class id ui	__label__nonDir
+extends class java.util.zip.zipoutputstream support writing optional manifest entry	__label__nonDir
+return image get pixel data specified file	__label__nonDir
+holder int	__label__nonDir
+constructor concrete subclass call	__label__nonDir
+make component displayable connecting native screen resource	__label__nonDir
+information holder file see generated file holder file	__label__nonDir
+visit uniontype element calling visitunknown	__label__nonDir
+generated idl-to-java compiler portable version src/share/classes/org/omg/portableinterceptor/iop.idl monday january pm pst	__label__nonDir
+service provider interface spi imageinputstreams	__label__nonDir
+return new general-purpose numberformat instance specified locale	__label__nonDir
+set attribute control print job	__label__nonDir
+reset treestate instance based tree providing look feel	__label__nonDir
+period added multiple unit	__label__nonDir
+multiplexing ui used combine rootpaneuis	__label__nonDir
+set designated parameter given reader object given number character long	__label__nonDir
+obtains clock return current instant ticking whole minute using best available system clock	__label__nonDir
+remove itemlistener	__label__nonDir
+contains minor code give detailed information caused exception completion status	__label__nonDir
+register observer called change happen content backing cursor	__label__nonDir
+set scroll offset pixel	__label__nonDir
+creates object responsible managing expanded well size node	__label__nonDir
+return horizontal x position event relative source component	__label__nonDir
+selects last item path try edit	__label__nonDir
+standard way representing multicomponent profile	__label__nonDir
+provides support rmi object activation	__label__nonDir
+simple filter interface used serviceregistry.getserviceproviders select provider matching arbitrary criterion	__label__nonDir
+dragsourcelistener defines event interface originator drag drop operation track state user gesture provide appropriate drag feedback user throughout drag drop operation	__label__nonDir
