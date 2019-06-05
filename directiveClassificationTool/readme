@@ -1,0 +1,5 @@
+1. FastText概要类别分类模型训练：运行util\make_train_file.py文件，修改其中的训练数据集，得到模型文件util\news_fasttext.model.bin
+2. FastText概要类别分类模型预测：运行util\fasttext_util.py可利用模型文件直接预测输入语句类别，还可利用验证集进行验证，具体语法参考FastText的python API
+3. 详细类别分类：运行util\pattern_filter.py，可分别得到各详细类别的匹配模式，可自行对匹配模式进行优化，提高分类效果
+4. 约束知识抽取：运行util\universal_pattern.py，将原始语句中的约束相关信息抽取出来，原始语句格式及输出信息格式可自定义
+5. 工具整合：运行util\tool.py将原始语句输出为约束知识
