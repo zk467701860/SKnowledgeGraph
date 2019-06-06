@@ -724,6 +724,15 @@ def alternativeDirective(string):
 
     return ['', '']
 
+def synchronizationDirective(string):
+    searchObj = re.search("thread-safe", string, re.M | re.S | re.I)
+    if searchObj:
+        invokeMethod = searchObj.group(1)
+        print invokeMethod
+        return [invokeMethod, '']
+
+    return ['', '']
+
 
 alternativeDirective('super.getLabelProvider must be invoked.  ')
 
